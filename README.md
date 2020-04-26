@@ -23,3 +23,138 @@ int main(int argumentsCount, char** arguments) {
 	unigine_engine_deinitialize();
 }
 ```
+
+##### Basic systems:
+```c
+#include "unigine.h"
+
+// System logic
+
+int game_system_logic_start(void) {
+	/* Write here code to be called on engine initialization */
+
+	return 1;
+}
+
+int game_system_logic_destroy(void) {
+	/* Write here code to be called on engine shutdown */
+
+	return 1;
+}
+
+int game_system_logic_destroy_render_resources(void) {
+	/* Write here code to be called when the video mode is changed or application is restarted */
+
+	return 1;
+}
+
+int game_system_logic_update(void) {
+	/* Write here code to be called before updating each render frame */
+
+	return 1;
+}
+
+int game_system_logic_post_update(void) {
+	/* Write here code to be called after updating each render frame */
+
+	return 1;
+}
+
+// World logic
+
+int game_world_logic_start(void) {
+	/* Write here code to be called on world initialization: initialize resources for your world scene during the world start */
+
+	return 1;
+}
+
+int game_world_logic_destroy(void) {
+	/* Write here code to be called on world shutdown: delete resources that were created during world script execution to avoid memory leaks */
+
+	return 1;
+}
+
+int game_world_logic_destroy_render_resources(void) {
+	/* Write here code to be called when the video mode is changed or application is restarted */
+
+	return 1;
+}
+
+void game_world_logic_update_async_thread(int32_t id, int32_t size) {
+	/* Write here code to be called after execution of all update sync thread functions */
+}
+
+void game_world_logic_update_sync_thread(int32_t id, int32_t size) {
+	/* Write here code to be called before the update and the post-update functions */
+}
+
+int game_world_logic_update(void) {
+	/* Write here code to be called before updating each render frame: specify all graphics-related functions you want to be called every frame while your application executes */
+
+	return 1;
+}
+
+int game_world_logic_post_update(void) {
+	/* Write here code to be called after updating each render frame: correct behavior after the state of the node has been updated */
+
+	return 1;
+}
+
+int game_world_logic_update_physics(void) {
+	/* Write here code to be called before updating each physics frame: control physics in your application and put non-rendering calculations */
+
+	return 1;
+}
+
+int game_world_logic_swap(void) {
+	/* The engine calls this function before updating each render frame */
+
+	return 1;
+}
+
+int game_world_logic_save(const void* stream) {
+	/* Write here code to be called when the world is saving its state, save custom user data to a file */
+
+	return 1;
+}
+
+int game_world_logic_restore(const void* stream) {
+	/* Write here code to be called when the world is restoring its state, restore custom user data to a file here */
+
+	return 1;
+}
+
+int main(int argumentsCount, char** arguments) {
+	void* engine = unigine_engine_initialize(UNIGINE_VERSION, "Game", NULL, NULL, argumentsCount, arguments, NULL, NULL);
+
+	void* systemLogic[5] = {
+		&game_system_logic_start,
+		&game_system_logic_destroy,
+		&game_system_logic_destroy_render_resources,
+		&game_system_logic_update,
+		&game_system_logic_post_update
+	};
+
+	void* worldLogic[11] = {
+		&game_world_logic_start,
+		&game_world_logic_destroy,
+		&game_world_logic_destroy_render_resources,
+		&game_world_logic_update_async_thread,
+		&game_world_logic_update_sync_thread,
+		&game_world_logic_update,
+		&game_world_logic_post_update,
+		&game_world_logic_update_physics,
+		&game_world_logic_swap,
+		&game_world_logic_save,
+		&game_world_logic_restore
+	};
+
+	void* system = unigine_system_logic_construct(systemLogic);
+	void* world = unigine_world_logic_construct(worldLogic);
+
+	unigine_engine_main(engine, system, world, NULL);
+	unigine_system_logic_destruct(system);
+	unigine_world_logic_destruct(world);
+	unigine_engine_deinitialize();
+}
+```
