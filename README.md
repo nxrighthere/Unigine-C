@@ -107,7 +107,7 @@ int game_world_logic_update_physics(void) {
 }
 
 int game_world_logic_swap(void) {
-	/* The engine calls this function before updating each render frame */
+	/* Write here code to be called before updating each render frame */
 
 	return 1;
 }
