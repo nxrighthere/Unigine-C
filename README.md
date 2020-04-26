@@ -127,7 +127,7 @@ int game_world_logic_restore(const void* stream) {
 int main(int argumentsCount, char** arguments) {
 	void* engine = unigine_engine_initialize(UNIGINE_VERSION, "Game", NULL, NULL, argumentsCount, arguments, NULL, NULL);
 
-	void* systemLogic[5] = {
+	void* systemFunctions[5] = {
 		&game_system_logic_start,
 		&game_system_logic_destroy,
 		&game_system_logic_destroy_render_resources,
@@ -135,7 +135,7 @@ int main(int argumentsCount, char** arguments) {
 		&game_system_logic_post_update
 	};
 
-	void* worldLogic[11] = {
+	void* worldFunctions[11] = {
 		&game_world_logic_start,
 		&game_world_logic_destroy,
 		&game_world_logic_destroy_render_resources,
@@ -149,12 +149,12 @@ int main(int argumentsCount, char** arguments) {
 		&game_world_logic_restore
 	};
 
-	void* system = unigine_system_logic_construct(systemLogic);
-	void* world = unigine_world_logic_construct(worldLogic);
+	void* systemLogic = unigine_system_logic_construct(systemFunctions);
+	void* worldLogic = unigine_world_logic_construct(worldFunctions);
 
-	unigine_engine_main(engine, system, world, NULL);
-	unigine_system_logic_destruct(system);
-	unigine_world_logic_destruct(world);
+	unigine_engine_main(engine, systemLogic, worldLogic, NULL);
+	unigine_system_logic_destruct(systemLogic);
+	unigine_world_logic_destruct(worldLogic);
 	unigine_engine_deinitialize();
 }
 ```
