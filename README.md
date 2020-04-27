@@ -8,7 +8,7 @@ This repository provides a single-header, native C API of the [Unigine](https://
 
 Usage
 --------
-Create a new or use an existing C++ project, recreate `source` folder with C sources, copy `UnigineWrapper_x64.dll` from `SDK\bin` directory to the `bin` directory of the project. Compile an executable by linking against `UnigineWrapper_x64.dll` library. Run the executable.
+Create a new or use an existing C++ project, recreate `source` folder with C sources, copy `UnigineWrapper_x64.dll` from `SDK\bin` directory to the `bin` directory of the project. Compile an executable by linking against `UnigineWrapper_x64.dll` library. Run the executable. Batch files in the root directory of the project can be edited accordingly.
 
 The engine API can be used in two ways: by using unformatted imported functions directly, or by using macro aliases that follow C naming conventions.
 
