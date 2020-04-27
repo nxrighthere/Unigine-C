@@ -28,8 +28,6 @@
 #include <stdint.h>
 
 #ifdef _WIN32
-	#include <Windows.h>
-
 	#define UNIGINE_IMPORT __declspec(dllimport)
 	#define UNIGINE_EXPORT __declspec(dllexport)
 #else
