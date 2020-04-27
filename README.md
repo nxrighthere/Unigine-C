@@ -33,6 +33,9 @@ int main(int argumentsCount, char** arguments) {
 int game_system_logic_start(void) {
 	/* Write here code to be called on engine initialization */
 
+	unigine_console_run("show_messages 1");
+	unigine_log_message("Hello, Unigine from C!\n");
+
 	return 1;
 }
 
