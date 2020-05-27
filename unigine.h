@@ -1803,6 +1803,8 @@ extern "C" {
 
 	#define unigine_ambient_source_delete_later_ptr AmbientSource_deleteLaterPtr
 
+	#define unigine_ambient_source_is_deleted_ptr AmbientSource_isDeletedPtr
+
 	#define unigine_ambient_source_destruct AmbientSource_dtor
 
 	#define unigine_ambient_source_create AmbientSource_create
@@ -2177,6 +2179,8 @@ extern "C" {
 
 	#define unigine_blob_delete_later_ptr Blob_deleteLaterPtr
 
+	#define unigine_blob_is_deleted_ptr Blob_isDeletedPtr
+
 	#define unigine_blob_set_owner Blob_setOwner
 
 	#define unigine_blob_is_owner Blob_isOwner
@@ -2248,6 +2252,8 @@ extern "C" {
 	#define unigine_body_is_null_ptr Body_isNullPtr
 
 	#define unigine_body_delete_later_ptr Body_deleteLaterPtr
+
+	#define unigine_body_is_deleted_ptr Body_isDeletedPtr
 
 	#define unigine_body_destruct Body_dtor
 
@@ -2453,6 +2459,8 @@ extern "C" {
 
 	#define unigine_body_cloth_delete_later_ptr BodyCloth_deleteLaterPtr
 
+	#define unigine_body_cloth_is_deleted_ptr BodyCloth_isDeletedPtr
+
 	#define unigine_body_cloth_create BodyCloth_create
 
 	#define unigine_body_cloth_create_1 BodyCloth_create_1
@@ -2477,6 +2485,8 @@ extern "C" {
 
 	#define unigine_body_dummy_delete_later_ptr BodyDummy_deleteLaterPtr
 
+	#define unigine_body_dummy_is_deleted_ptr BodyDummy_isDeletedPtr
+
 	#define unigine_body_dummy_create BodyDummy_create
 
 	#define unigine_body_dummy_create_1 BodyDummy_create_1
@@ -2492,6 +2502,8 @@ extern "C" {
 	#define unigine_body_fracture_is_null_ptr BodyFracture_isNullPtr
 
 	#define unigine_body_fracture_delete_later_ptr BodyFracture_deleteLaterPtr
+
+	#define unigine_body_fracture_is_deleted_ptr BodyFracture_isDeletedPtr
 
 	#define unigine_body_fracture_create BodyFracture_create
 
@@ -2609,6 +2621,8 @@ extern "C" {
 
 	#define unigine_body_particles_delete_later_ptr BodyParticles_deleteLaterPtr
 
+	#define unigine_body_particles_is_deleted_ptr BodyParticles_isDeletedPtr
+
 	#define unigine_body_particles_add_particle_force BodyParticles_addParticleForce
 
 	#define unigine_body_particles_add_particle_impulse BodyParticles_addParticleImpulse
@@ -2699,6 +2713,8 @@ extern "C" {
 
 	#define unigine_body_path_delete_later_ptr BodyPath_deleteLaterPtr
 
+	#define unigine_body_path_is_deleted_ptr BodyPath_isDeletedPtr
+
 	#define unigine_body_path_create BodyPath_create
 
 	#define unigine_body_path_create_1 BodyPath_create_1
@@ -2724,6 +2740,8 @@ extern "C" {
 	#define unigine_body_ragdoll_is_null_ptr BodyRagdoll_isNullPtr
 
 	#define unigine_body_ragdoll_delete_later_ptr BodyRagdoll_deleteLaterPtr
+
+	#define unigine_body_ragdoll_is_deleted_ptr BodyRagdoll_isDeletedPtr
 
 	#define unigine_body_ragdoll_create BodyRagdoll_create
 
@@ -2774,6 +2792,8 @@ extern "C" {
 	#define unigine_body_rigid_is_null_ptr BodyRigid_isNullPtr
 
 	#define unigine_body_rigid_delete_later_ptr BodyRigid_deleteLaterPtr
+
+	#define unigine_body_rigid_is_deleted_ptr BodyRigid_isDeletedPtr
 
 	#define unigine_body_rigid_create BodyRigid_create
 
@@ -2883,6 +2903,8 @@ extern "C" {
 
 	#define unigine_body_rope_delete_later_ptr BodyRope_deleteLaterPtr
 
+	#define unigine_body_rope_is_deleted_ptr BodyRope_isDeletedPtr
+
 	#define unigine_body_rope_create BodyRope_create
 
 	#define unigine_body_rope_create_1 BodyRope_create_1
@@ -2898,6 +2920,8 @@ extern "C" {
 	#define unigine_body_water_is_null_ptr BodyWater_isNullPtr
 
 	#define unigine_body_water_delete_later_ptr BodyWater_deleteLaterPtr
+
+	#define unigine_body_water_is_deleted_ptr BodyWater_isDeletedPtr
 
 	#define unigine_body_water_create BodyWater_create
 
@@ -3179,6 +3203,8 @@ extern "C" {
 
 	#define unigine_camera_delete_later_ptr Camera_deleteLaterPtr
 
+	#define unigine_camera_is_deleted_ptr Camera_isDeletedPtr
+
 	#define unigine_camera_destruct Camera_dtor
 
 	#define unigine_camera_set_owner Camera_setOwner
@@ -3433,6 +3459,8 @@ extern "C" {
 
 	#define unigine_controls_delete_later_ptr Controls_deleteLaterPtr
 
+	#define unigine_controls_is_deleted_ptr Controls_isDeletedPtr
+
 	#define unigine_controls_destruct Controls_dtor
 
 	#define unigine_controls_create Controls_create
@@ -3527,6 +3555,8 @@ extern "C" {
 
 	#define unigine_controls_dummy_delete_later_ptr ControlsDummy_deleteLaterPtr
 
+	#define unigine_controls_dummy_is_deleted_ptr ControlsDummy_isDeletedPtr
+
 	#define unigine_controls_dummy_create ControlsDummy_create
 
 	#define unigine_controls_joystick_construct ControlsJoystick_ctor
@@ -3540,6 +3570,8 @@ extern "C" {
 	#define unigine_controls_joystick_is_null_ptr ControlsJoystick_isNullPtr
 
 	#define unigine_controls_joystick_delete_later_ptr ControlsJoystick_deleteLaterPtr
+
+	#define unigine_controls_joystick_is_deleted_ptr ControlsJoystick_isDeletedPtr
 
 	#define unigine_controls_joystick_create ControlsJoystick_create
 
@@ -3600,6 +3632,8 @@ extern "C" {
 	#define unigine_controls_six_axis_is_null_ptr ControlsSixAxis_isNullPtr
 
 	#define unigine_controls_six_axis_delete_later_ptr ControlsSixAxis_deleteLaterPtr
+
+	#define unigine_controls_six_axis_is_deleted_ptr ControlsSixAxis_isDeletedPtr
 
 	#define unigine_controls_six_axis_create ControlsSixAxis_create
 
@@ -3688,6 +3722,8 @@ extern "C" {
 	#define unigine_controls_xpad360_is_null_ptr ControlsXPad360_isNullPtr
 
 	#define unigine_controls_xpad360_delete_later_ptr ControlsXPad360_deleteLaterPtr
+
+	#define unigine_controls_xpad360_is_deleted_ptr ControlsXPad360_isDeletedPtr
 
 	#define unigine_controls_xpad360_create ControlsXPad360_create
 
@@ -3971,6 +4007,8 @@ extern "C" {
 
 	#define unigine_decal_delete_later_ptr Decal_deleteLaterPtr
 
+	#define unigine_decal_is_deleted_ptr Decal_isDeletedPtr
+
 	#define unigine_decal_set_life_time Decal_setLifeTime
 
 	#define unigine_decal_get_life_time Decal_getLifeTime
@@ -4041,6 +4079,8 @@ extern "C" {
 
 	#define unigine_decal_mesh_delete_later_ptr DecalMesh_deleteLaterPtr
 
+	#define unigine_decal_mesh_is_deleted_ptr DecalMesh_isDeletedPtr
+
 	#define unigine_decal_mesh_create DecalMesh_create
 
 	#define unigine_decal_mesh_create_1 DecalMesh_create_1
@@ -4075,6 +4115,8 @@ extern "C" {
 
 	#define unigine_decal_ortho_delete_later_ptr DecalOrtho_deleteLaterPtr
 
+	#define unigine_decal_ortho_is_deleted_ptr DecalOrtho_isDeletedPtr
+
 	#define unigine_decal_ortho_create DecalOrtho_create
 
 	#define unigine_decal_ortho_set_height DecalOrtho_setHeight
@@ -4106,6 +4148,8 @@ extern "C" {
 	#define unigine_decal_proj_is_null_ptr DecalProj_isNullPtr
 
 	#define unigine_decal_proj_delete_later_ptr DecalProj_deleteLaterPtr
+
+	#define unigine_decal_proj_is_deleted_ptr DecalProj_isDeletedPtr
 
 	#define unigine_decal_proj_create DecalProj_create
 
@@ -4172,6 +4216,8 @@ extern "C" {
 	#define unigine_dir_is_null_ptr Dir_isNullPtr
 
 	#define unigine_dir_delete_later_ptr Dir_deleteLaterPtr
+
+	#define unigine_dir_is_deleted_ptr Dir_isDeletedPtr
 
 	#define unigine_dir_destruct Dir_dtor
 
@@ -4348,6 +4394,8 @@ extern "C" {
 	#define unigine_ellipsoid_is_null_ptr Ellipsoid_isNullPtr
 
 	#define unigine_ellipsoid_delete_later_ptr Ellipsoid_deleteLaterPtr
+
+	#define unigine_ellipsoid_is_deleted_ptr Ellipsoid_isDeletedPtr
 
 	#define unigine_ellipsoid_destruct Ellipsoid_dtor
 
@@ -4781,6 +4829,8 @@ extern "C" {
 
 	#define unigine_field_delete_later_ptr Field_deleteLaterPtr
 
+	#define unigine_field_is_deleted_ptr Field_isDeletedPtr
+
 	#define unigine_field_set_field_mask Field_setFieldMask
 
 	#define unigine_field_get_field_mask Field_getFieldMask
@@ -4800,6 +4850,8 @@ extern "C" {
 	#define unigine_field_animation_is_null_ptr FieldAnimation_isNullPtr
 
 	#define unigine_field_animation_delete_later_ptr FieldAnimation_deleteLaterPtr
+
+	#define unigine_field_animation_is_deleted_ptr FieldAnimation_isDeletedPtr
 
 	#define unigine_field_animation_create FieldAnimation_create
 
@@ -4842,6 +4894,8 @@ extern "C" {
 	#define unigine_field_height_is_null_ptr FieldHeight_isNullPtr
 
 	#define unigine_field_height_delete_later_ptr FieldHeight_deleteLaterPtr
+
+	#define unigine_field_height_is_deleted_ptr FieldHeight_isDeletedPtr
 
 	#define unigine_field_height_create FieldHeight_create
 
@@ -4889,6 +4943,8 @@ extern "C" {
 
 	#define unigine_field_shoreline_delete_later_ptr FieldShoreline_deleteLaterPtr
 
+	#define unigine_field_shoreline_is_deleted_ptr FieldShoreline_isDeletedPtr
+
 	#define unigine_field_shoreline_create FieldShoreline_create
 
 	#define unigine_field_shoreline_set_size FieldShoreline_setSize
@@ -4929,6 +4985,8 @@ extern "C" {
 
 	#define unigine_field_spacer_delete_later_ptr FieldSpacer_deleteLaterPtr
 
+	#define unigine_field_spacer_is_deleted_ptr FieldSpacer_isDeletedPtr
+
 	#define unigine_field_spacer_create FieldSpacer_create
 
 	#define unigine_field_spacer_set_ellipse FieldSpacer_setEllipse
@@ -4954,6 +5012,8 @@ extern "C" {
 	#define unigine_field_weather_is_null_ptr FieldWeather_isNullPtr
 
 	#define unigine_field_weather_delete_later_ptr FieldWeather_deleteLaterPtr
+
+	#define unigine_field_weather_is_deleted_ptr FieldWeather_isDeletedPtr
 
 	#define unigine_field_weather_create FieldWeather_create
 
@@ -5012,6 +5072,8 @@ extern "C" {
 	#define unigine_file_is_null_ptr File_isNullPtr
 
 	#define unigine_file_delete_later_ptr File_deleteLaterPtr
+
+	#define unigine_file_is_deleted_ptr File_isDeletedPtr
 
 	#define unigine_file_set_owner File_setOwner
 
@@ -5321,6 +5383,8 @@ extern "C" {
 
 	#define unigine_file_system_mount_delete_later_ptr FileSystemMount_deleteLaterPtr
 
+	#define unigine_file_system_mount_is_deleted_ptr FileSystemMount_isDeletedPtr
+
 	#define unigine_file_system_mount_destruct FileSystemMount_dtor
 
 	#define unigine_file_system_mount_get_access FileSystemMount_getAccess
@@ -5409,6 +5473,8 @@ extern "C" {
 
 	#define unigine_game_intersection_delete_later_ptr GameIntersection_deleteLaterPtr
 
+	#define unigine_game_intersection_is_deleted_ptr GameIntersection_isDeletedPtr
+
 	#define unigine_game_intersection_destruct GameIntersection_dtor
 
 	#define unigine_game_intersection_set_owner GameIntersection_setOwner
@@ -5432,6 +5498,8 @@ extern "C" {
 	#define unigine_geodetic_pivot_is_null_ptr GeodeticPivot_isNullPtr
 
 	#define unigine_geodetic_pivot_delete_later_ptr GeodeticPivot_deleteLaterPtr
+
+	#define unigine_geodetic_pivot_is_deleted_ptr GeodeticPivot_isDeletedPtr
 
 	#define unigine_geodetic_pivot_create GeodeticPivot_create
 
@@ -5651,6 +5719,8 @@ extern "C" {
 
 	#define unigine_gui_delete_later_ptr Gui_deleteLaterPtr
 
+	#define unigine_gui_is_deleted_ptr Gui_isDeletedPtr
+
 	#define unigine_gui_destruct Gui_dtor
 
 	#define unigine_gui_enable Gui_enable
@@ -5864,6 +5934,8 @@ extern "C" {
 	#define unigine_image_is_null_ptr Image_isNullPtr
 
 	#define unigine_image_delete_later_ptr Image_deleteLaterPtr
+
+	#define unigine_image_is_deleted_ptr Image_isDeletedPtr
 
 	#define unigine_image_destruct Image_dtor
 
@@ -6253,6 +6325,8 @@ extern "C" {
 
 	#define unigine_input_gamepad_delete_later_ptr InputGamePad_deleteLaterPtr
 
+	#define unigine_input_gamepad_is_deleted_ptr InputGamePad_isDeletedPtr
+
 	#define unigine_input_gamepad_destruct InputGamePad_dtor
 
 	#define unigine_input_gamepad_is_available InputGamePad_isAvailable
@@ -6439,6 +6513,8 @@ extern "C" {
 
 	#define unigine_joint_delete_later_ptr Joint_deleteLaterPtr
 
+	#define unigine_joint_is_deleted_ptr Joint_isDeletedPtr
+
 	#define unigine_joint_destruct Joint_dtor
 
 	#define unigine_joint_create_joint Joint_createJoint
@@ -6557,6 +6633,8 @@ extern "C" {
 
 	#define unigine_joint_ball_delete_later_ptr JointBall_deleteLaterPtr
 
+	#define unigine_joint_ball_is_deleted_ptr JointBall_isDeletedPtr
+
 	#define unigine_joint_ball_create JointBall_create
 
 	#define unigine_joint_ball_create_1 JointBall_create_1
@@ -6604,6 +6682,8 @@ extern "C" {
 	#define unigine_joint_cylindrical_is_null_ptr JointCylindrical_isNullPtr
 
 	#define unigine_joint_cylindrical_delete_later_ptr JointCylindrical_deleteLaterPtr
+
+	#define unigine_joint_cylindrical_is_deleted_ptr JointCylindrical_isDeletedPtr
 
 	#define unigine_joint_cylindrical_create JointCylindrical_create
 
@@ -6699,6 +6779,8 @@ extern "C" {
 
 	#define unigine_joint_fixed_delete_later_ptr JointFixed_deleteLaterPtr
 
+	#define unigine_joint_fixed_is_deleted_ptr JointFixed_isDeletedPtr
+
 	#define unigine_joint_fixed_create JointFixed_create
 
 	#define unigine_joint_fixed_create_1 JointFixed_create_1
@@ -6728,6 +6810,8 @@ extern "C" {
 	#define unigine_joint_hinge_is_null_ptr JointHinge_isNullPtr
 
 	#define unigine_joint_hinge_delete_later_ptr JointHinge_deleteLaterPtr
+
+	#define unigine_joint_hinge_is_deleted_ptr JointHinge_isDeletedPtr
 
 	#define unigine_joint_hinge_create JointHinge_create
 
@@ -6791,6 +6875,8 @@ extern "C" {
 
 	#define unigine_joint_particles_delete_later_ptr JointParticles_deleteLaterPtr
 
+	#define unigine_joint_particles_is_deleted_ptr JointParticles_isDeletedPtr
+
 	#define unigine_joint_particles_create JointParticles_create
 
 	#define unigine_joint_particles_create_1 JointParticles_create_1
@@ -6824,6 +6910,8 @@ extern "C" {
 	#define unigine_joint_path_is_null_ptr JointPath_isNullPtr
 
 	#define unigine_joint_path_delete_later_ptr JointPath_deleteLaterPtr
+
+	#define unigine_joint_path_is_deleted_ptr JointPath_isDeletedPtr
 
 	#define unigine_joint_path_create JointPath_create
 
@@ -6864,6 +6952,8 @@ extern "C" {
 	#define unigine_joint_prismatic_is_null_ptr JointPrismatic_isNullPtr
 
 	#define unigine_joint_prismatic_delete_later_ptr JointPrismatic_deleteLaterPtr
+
+	#define unigine_joint_prismatic_is_deleted_ptr JointPrismatic_isDeletedPtr
 
 	#define unigine_joint_prismatic_create JointPrismatic_create
 
@@ -6934,6 +7024,8 @@ extern "C" {
 	#define unigine_joint_suspension_is_null_ptr JointSuspension_isNullPtr
 
 	#define unigine_joint_suspension_delete_later_ptr JointSuspension_deleteLaterPtr
+
+	#define unigine_joint_suspension_is_deleted_ptr JointSuspension_isDeletedPtr
 
 	#define unigine_joint_suspension_create JointSuspension_create
 
@@ -7008,6 +7100,8 @@ extern "C" {
 	#define unigine_joint_wheel_is_null_ptr JointWheel_isNullPtr
 
 	#define unigine_joint_wheel_delete_later_ptr JointWheel_deleteLaterPtr
+
+	#define unigine_joint_wheel_is_deleted_ptr JointWheel_isDeletedPtr
 
 	#define unigine_joint_wheel_create JointWheel_create
 
@@ -7130,6 +7224,8 @@ extern "C" {
 	#define unigine_json_is_null_ptr Json_isNullPtr
 
 	#define unigine_json_delete_later_ptr Json_deleteLaterPtr
+
+	#define unigine_json_is_deleted_ptr Json_isDeletedPtr
 
 	#define unigine_json_destruct Json_dtor
 
@@ -7311,6 +7407,8 @@ extern "C" {
 
 	#define unigine_landscape_fetch_delete_later_ptr LandscapeFetch_deleteLaterPtr
 
+	#define unigine_landscape_fetch_is_deleted_ptr LandscapeFetch_isDeletedPtr
+
 	#define unigine_landscape_fetch_destruct LandscapeFetch_dtor
 
 	#define unigine_landscape_fetch_set_owner LandscapeFetch_setOwner
@@ -7419,6 +7517,8 @@ extern "C" {
 
 	#define unigine_landscape_images_delete_later_ptr LandscapeImages_deleteLaterPtr
 
+	#define unigine_landscape_images_is_deleted_ptr LandscapeImages_isDeletedPtr
+
 	#define unigine_landscape_images_destruct LandscapeImages_dtor
 
 	#define unigine_landscape_images_set_owner LandscapeImages_setOwner
@@ -7458,6 +7558,8 @@ extern "C" {
 	#define unigine_landscape_layer_map_is_null_ptr LandscapeLayerMap_isNullPtr
 
 	#define unigine_landscape_layer_map_delete_later_ptr LandscapeLayerMap_deleteLaterPtr
+
+	#define unigine_landscape_layer_map_is_deleted_ptr LandscapeLayerMap_isDeletedPtr
 
 	#define unigine_landscape_layer_map_create LandscapeLayerMap_create
 
@@ -7506,6 +7608,8 @@ extern "C" {
 	#define unigine_landscape_map_file_creator_is_null_ptr LandscapeMapFileCreator_isNullPtr
 
 	#define unigine_landscape_map_file_creator_delete_later_ptr LandscapeMapFileCreator_deleteLaterPtr
+
+	#define unigine_landscape_map_file_creator_is_deleted_ptr LandscapeMapFileCreator_isDeletedPtr
 
 	#define unigine_landscape_map_file_creator_destruct LandscapeMapFileCreator_dtor
 
@@ -7566,6 +7670,8 @@ extern "C" {
 	#define unigine_landscape_map_file_settings_is_null_ptr LandscapeMapFileSettings_isNullPtr
 
 	#define unigine_landscape_map_file_settings_delete_later_ptr LandscapeMapFileSettings_deleteLaterPtr
+
+	#define unigine_landscape_map_file_settings_is_deleted_ptr LandscapeMapFileSettings_isDeletedPtr
 
 	#define unigine_landscape_map_file_settings_destruct LandscapeMapFileSettings_dtor
 
@@ -7633,6 +7739,8 @@ extern "C" {
 
 	#define unigine_landscape_textures_delete_later_ptr LandscapeTextures_deleteLaterPtr
 
+	#define unigine_landscape_textures_is_deleted_ptr LandscapeTextures_isDeletedPtr
+
 	#define unigine_landscape_textures_destruct LandscapeTextures_dtor
 
 	#define unigine_landscape_textures_set_owner LandscapeTextures_setOwner
@@ -7674,6 +7782,8 @@ extern "C" {
 	#define unigine_light_is_null_ptr Light_isNullPtr
 
 	#define unigine_light_delete_later_ptr Light_deleteLaterPtr
+
+	#define unigine_light_is_deleted_ptr Light_isDeletedPtr
 
 	#define unigine_light_get_lens_flare Light_getLensFlare
 
@@ -7885,6 +7995,8 @@ extern "C" {
 
 	#define unigine_light_environment_probe_delete_later_ptr LightEnvironmentProbe_deleteLaterPtr
 
+	#define unigine_light_environment_probe_is_deleted_ptr LightEnvironmentProbe_isDeletedPtr
+
 	#define unigine_light_environment_probe_create LightEnvironmentProbe_create
 
 	#define unigine_light_environment_probe_set_attenuation_distance LightEnvironmentProbe_setAttenuationDistance
@@ -8013,6 +8125,8 @@ extern "C" {
 
 	#define unigine_light_lens_flare_delete_later_ptr LightLensFlare_deleteLaterPtr
 
+	#define unigine_light_lens_flare_is_deleted_ptr LightLensFlare_isDeletedPtr
+
 	#define unigine_light_lens_flare_destruct LightLensFlare_dtor
 
 	#define unigine_light_lens_flare_set_name LightLensFlare_setName
@@ -8062,6 +8176,8 @@ extern "C" {
 	#define unigine_light_omni_is_null_ptr LightOmni_isNullPtr
 
 	#define unigine_light_omni_delete_later_ptr LightOmni_deleteLaterPtr
+
+	#define unigine_light_omni_is_deleted_ptr LightOmni_isDeletedPtr
 
 	#define unigine_light_omni_create LightOmni_create
 
@@ -8114,6 +8230,8 @@ extern "C" {
 	#define unigine_light_proj_is_null_ptr LightProj_isNullPtr
 
 	#define unigine_light_proj_delete_later_ptr LightProj_deleteLaterPtr
+
+	#define unigine_light_proj_is_deleted_ptr LightProj_isDeletedPtr
 
 	#define unigine_light_proj_create LightProj_create
 
@@ -8174,6 +8292,8 @@ extern "C" {
 	#define unigine_light_voxel_probe_is_null_ptr LightVoxelProbe_isNullPtr
 
 	#define unigine_light_voxel_probe_delete_later_ptr LightVoxelProbe_deleteLaterPtr
+
+	#define unigine_light_voxel_probe_is_deleted_ptr LightVoxelProbe_isDeletedPtr
 
 	#define unigine_light_voxel_probe_create LightVoxelProbe_create
 
@@ -8348,6 +8468,8 @@ extern "C" {
 	#define unigine_light_world_is_null_ptr LightWorld_isNullPtr
 
 	#define unigine_light_world_delete_later_ptr LightWorld_deleteLaterPtr
+
+	#define unigine_light_world_is_deleted_ptr LightWorld_isDeletedPtr
 
 	#define unigine_light_world_create LightWorld_create
 
@@ -8532,6 +8654,8 @@ extern "C" {
 	#define unigine_material_is_null_ptr Material_isNullPtr
 
 	#define unigine_material_delete_later_ptr Material_deleteLaterPtr
+
+	#define unigine_material_is_deleted_ptr Material_isDeletedPtr
 
 	#define unigine_material_destruct Material_dtor
 
@@ -10037,6 +10161,8 @@ extern "C" {
 
 	#define unigine_mesh_delete_later_ptr Mesh_deleteLaterPtr
 
+	#define unigine_mesh_is_deleted_ptr Mesh_isDeletedPtr
+
 	#define unigine_mesh_destruct Mesh_dtor
 
 	#define unigine_mesh_set_owner Mesh_setOwner
@@ -10319,6 +10445,8 @@ extern "C" {
 
 	#define unigine_mesh_dynamic_delete_later_ptr MeshDynamic_deleteLaterPtr
 
+	#define unigine_mesh_dynamic_is_deleted_ptr MeshDynamic_isDeletedPtr
+
 	#define unigine_mesh_dynamic_destruct MeshDynamic_dtor
 
 	#define unigine_mesh_dynamic_set_owner MeshDynamic_setOwner
@@ -10569,6 +10697,8 @@ extern "C" {
 
 	#define unigine_navigation_delete_later_ptr Navigation_deleteLaterPtr
 
+	#define unigine_navigation_is_deleted_ptr Navigation_isDeletedPtr
+
 	#define unigine_navigation_set_dangerous Navigation_setDangerous
 
 	#define unigine_navigation_get_dangerous Navigation_getDangerous
@@ -10607,6 +10737,8 @@ extern "C" {
 
 	#define unigine_navigation_mesh_delete_later_ptr NavigationMesh_deleteLaterPtr
 
+	#define unigine_navigation_mesh_is_deleted_ptr NavigationMesh_isDeletedPtr
+
 	#define unigine_navigation_mesh_create NavigationMesh_create
 
 	#define unigine_navigation_mesh_create_1 NavigationMesh_create_1
@@ -10643,6 +10775,8 @@ extern "C" {
 
 	#define unigine_navigation_sector_delete_later_ptr NavigationSector_deleteLaterPtr
 
+	#define unigine_navigation_sector_is_deleted_ptr NavigationSector_isDeletedPtr
+
 	#define unigine_navigation_sector_create NavigationSector_create
 
 	#define unigine_navigation_sector_set_size NavigationSector_setSize
@@ -10658,6 +10792,8 @@ extern "C" {
 	#define unigine_node_is_null_ptr Node_isNullPtr
 
 	#define unigine_node_delete_later_ptr Node_deleteLaterPtr
+
+	#define unigine_node_is_deleted_ptr Node_isDeletedPtr
 
 	#define unigine_node_destruct Node_dtor
 
@@ -11035,6 +11171,8 @@ extern "C" {
 
 	#define unigine_node_dummy_delete_later_ptr NodeDummy_deleteLaterPtr
 
+	#define unigine_node_dummy_is_deleted_ptr NodeDummy_isDeletedPtr
+
 	#define unigine_node_dummy_create NodeDummy_create
 
 	#define unigine_node_extern_construct NodeExtern_ctor
@@ -11048,6 +11186,8 @@ extern "C" {
 	#define unigine_node_extern_is_null_ptr NodeExtern_isNullPtr
 
 	#define unigine_node_extern_delete_later_ptr NodeExtern_deleteLaterPtr
+
+	#define unigine_node_extern_is_deleted_ptr NodeExtern_isDeletedPtr
 
 	#define unigine_node_extern_create NodeExtern_create
 
@@ -11065,6 +11205,8 @@ extern "C" {
 
 	#define unigine_node_extern_base_delete_later_ptr NodeExternBase_deleteLaterPtr
 
+	#define unigine_node_extern_base_is_deleted_ptr NodeExternBase_isDeletedPtr
+
 	#define unigine_node_layer_construct NodeLayer_ctor
 
 	#define unigine_node_layer_destruct NodeLayer_dtor
@@ -11076,6 +11218,8 @@ extern "C" {
 	#define unigine_node_layer_is_null_ptr NodeLayer_isNullPtr
 
 	#define unigine_node_layer_delete_later_ptr NodeLayer_deleteLaterPtr
+
+	#define unigine_node_layer_is_deleted_ptr NodeLayer_isDeletedPtr
 
 	#define unigine_node_layer_create NodeLayer_create
 
@@ -11094,6 +11238,8 @@ extern "C" {
 	#define unigine_node_reference_is_null_ptr NodeReference_isNullPtr
 
 	#define unigine_node_reference_delete_later_ptr NodeReference_deleteLaterPtr
+
+	#define unigine_node_reference_is_deleted_ptr NodeReference_isDeletedPtr
 
 	#define unigine_node_reference_create NodeReference_create
 
@@ -11118,6 +11264,8 @@ extern "C" {
 	#define unigine_node_trigger_is_null_ptr NodeTrigger_isNullPtr
 
 	#define unigine_node_trigger_delete_later_ptr NodeTrigger_deleteLaterPtr
+
+	#define unigine_node_trigger_is_deleted_ptr NodeTrigger_isDeletedPtr
 
 	#define unigine_node_trigger_create NodeTrigger_create
 
@@ -11152,6 +11300,8 @@ extern "C" {
 	#define unigine_object_is_null_ptr Object_isNullPtr
 
 	#define unigine_object_delete_later_ptr Object_deleteLaterPtr
+
+	#define unigine_object_is_deleted_ptr Object_isDeletedPtr
 
 	#define unigine_object_set_body Object_setBody
 
@@ -11411,6 +11561,8 @@ extern "C" {
 
 	#define unigine_object_billboards_delete_later_ptr ObjectBillboards_deleteLaterPtr
 
+	#define unigine_object_billboards_is_deleted_ptr ObjectBillboards_isDeletedPtr
+
 	#define unigine_object_billboards_create ObjectBillboards_create
 
 	#define unigine_object_billboards_set_depth_sort ObjectBillboards_setDepthSort
@@ -11471,6 +11623,8 @@ extern "C" {
 
 	#define unigine_object_cloud_layer_delete_later_ptr ObjectCloudLayer_deleteLaterPtr
 
+	#define unigine_object_cloud_layer_is_deleted_ptr ObjectCloudLayer_isDeletedPtr
+
 	#define unigine_object_cloud_layer_create ObjectCloudLayer_create
 
 	#define unigine_object_cloud_layer_set_intersection_threshold ObjectCloudLayer_setIntersectionThreshold
@@ -11501,6 +11655,8 @@ extern "C" {
 
 	#define unigine_object_dummy_delete_later_ptr ObjectDummy_deleteLaterPtr
 
+	#define unigine_object_dummy_is_deleted_ptr ObjectDummy_isDeletedPtr
+
 	#define unigine_object_dummy_create ObjectDummy_create
 
 	#define unigine_object_dynamic_construct ObjectDynamic_ctor
@@ -11514,6 +11670,8 @@ extern "C" {
 	#define unigine_object_dynamic_is_null_ptr ObjectDynamic_isNullPtr
 
 	#define unigine_object_dynamic_delete_later_ptr ObjectDynamic_deleteLaterPtr
+
+	#define unigine_object_dynamic_is_deleted_ptr ObjectDynamic_isDeletedPtr
 
 	#define unigine_object_dynamic_create ObjectDynamic_create
 
@@ -11661,6 +11819,8 @@ extern "C" {
 
 	#define unigine_object_extern_delete_later_ptr ObjectExtern_deleteLaterPtr
 
+	#define unigine_object_extern_is_deleted_ptr ObjectExtern_isDeletedPtr
+
 	#define unigine_object_extern_create ObjectExtern_create
 
 	#define unigine_object_extern_get_class_id ObjectExtern_getClassID
@@ -11681,6 +11841,8 @@ extern "C" {
 
 	#define unigine_object_extern_base_delete_later_ptr ObjectExternBase_deleteLaterPtr
 
+	#define unigine_object_extern_base_is_deleted_ptr ObjectExternBase_isDeletedPtr
+
 	#define unigine_object_grass_construct ObjectGrass_ctor
 
 	#define unigine_object_grass_destruct ObjectGrass_dtor
@@ -11692,6 +11854,8 @@ extern "C" {
 	#define unigine_object_grass_is_null_ptr ObjectGrass_isNullPtr
 
 	#define unigine_object_grass_delete_later_ptr ObjectGrass_deleteLaterPtr
+
+	#define unigine_object_grass_is_deleted_ptr ObjectGrass_isDeletedPtr
 
 	#define unigine_object_grass_create ObjectGrass_create
 
@@ -11863,6 +12027,8 @@ extern "C" {
 
 	#define unigine_object_gui_delete_later_ptr ObjectGui_deleteLaterPtr
 
+	#define unigine_object_gui_is_deleted_ptr ObjectGui_isDeletedPtr
+
 	#define unigine_object_gui_create ObjectGui_create
 
 	#define unigine_object_gui_get_gui ObjectGui_getGui
@@ -11921,6 +12087,8 @@ extern "C" {
 
 	#define unigine_object_gui_mesh_delete_later_ptr ObjectGuiMesh_deleteLaterPtr
 
+	#define unigine_object_gui_mesh_is_deleted_ptr ObjectGuiMesh_isDeletedPtr
+
 	#define unigine_object_gui_mesh_create ObjectGuiMesh_create
 
 	#define unigine_object_gui_mesh_create_1 ObjectGuiMesh_create_1
@@ -11973,6 +12141,8 @@ extern "C" {
 
 	#define unigine_object_intersection_delete_later_ptr ObjectIntersection_deleteLaterPtr
 
+	#define unigine_object_intersection_is_deleted_ptr ObjectIntersection_isDeletedPtr
+
 	#define unigine_object_intersection_destruct ObjectIntersection_dtor
 
 	#define unigine_object_intersection_set_owner ObjectIntersection_setOwner
@@ -12009,6 +12179,8 @@ extern "C" {
 
 	#define unigine_object_intersection_normal_delete_later_ptr ObjectIntersectionNormal_deleteLaterPtr
 
+	#define unigine_object_intersection_normal_is_deleted_ptr ObjectIntersectionNormal_isDeletedPtr
+
 	#define unigine_object_intersection_normal_set_owner ObjectIntersectionNormal_setOwner
 
 	#define unigine_object_intersection_normal_is_owner ObjectIntersectionNormal_isOwner
@@ -12031,6 +12203,8 @@ extern "C" {
 
 	#define unigine_object_intersection_tex_coord_delete_later_ptr ObjectIntersectionTexCoord_deleteLaterPtr
 
+	#define unigine_object_intersection_tex_coord_is_deleted_ptr ObjectIntersectionTexCoord_isDeletedPtr
+
 	#define unigine_object_intersection_tex_coord_set_owner ObjectIntersectionTexCoord_setOwner
 
 	#define unigine_object_intersection_tex_coord_is_owner ObjectIntersectionTexCoord_isOwner
@@ -12052,6 +12226,8 @@ extern "C" {
 	#define unigine_object_landscape_terrain_is_null_ptr ObjectLandscapeTerrain_isNullPtr
 
 	#define unigine_object_landscape_terrain_delete_later_ptr ObjectLandscapeTerrain_deleteLaterPtr
+
+	#define unigine_object_landscape_terrain_is_deleted_ptr ObjectLandscapeTerrain_isDeletedPtr
 
 	#define unigine_object_landscape_terrain_create ObjectLandscapeTerrain_create
 
@@ -12102,6 +12278,8 @@ extern "C" {
 	#define unigine_object_mesh_cluster_is_null_ptr ObjectMeshCluster_isNullPtr
 
 	#define unigine_object_mesh_cluster_delete_later_ptr ObjectMeshCluster_deleteLaterPtr
+
+	#define unigine_object_mesh_cluster_is_deleted_ptr ObjectMeshCluster_isDeletedPtr
 
 	#define unigine_object_mesh_cluster_create ObjectMeshCluster_create
 
@@ -12178,6 +12356,8 @@ extern "C" {
 	#define unigine_object_mesh_clutter_is_null_ptr ObjectMeshClutter_isNullPtr
 
 	#define unigine_object_mesh_clutter_delete_later_ptr ObjectMeshClutter_deleteLaterPtr
+
+	#define unigine_object_mesh_clutter_is_deleted_ptr ObjectMeshClutter_isDeletedPtr
 
 	#define unigine_object_mesh_clutter_create ObjectMeshClutter_create
 
@@ -12363,6 +12543,8 @@ extern "C" {
 
 	#define unigine_object_mesh_dynamic_delete_later_ptr ObjectMeshDynamic_deleteLaterPtr
 
+	#define unigine_object_mesh_dynamic_is_deleted_ptr ObjectMeshDynamic_isDeletedPtr
+
 	#define unigine_object_mesh_dynamic_create ObjectMeshDynamic_create
 
 	#define unigine_object_mesh_dynamic_create_1 ObjectMeshDynamic_create_1
@@ -12512,6 +12694,8 @@ extern "C" {
 	#define unigine_object_mesh_skinned_is_null_ptr ObjectMeshSkinned_isNullPtr
 
 	#define unigine_object_mesh_skinned_delete_later_ptr ObjectMeshSkinned_deleteLaterPtr
+
+	#define unigine_object_mesh_skinned_is_deleted_ptr ObjectMeshSkinned_isDeletedPtr
 
 	#define unigine_object_mesh_skinned_create ObjectMeshSkinned_create
 
@@ -12805,6 +12989,8 @@ extern "C" {
 
 	#define unigine_object_mesh_spline_cluster_delete_later_ptr ObjectMeshSplineCluster_deleteLaterPtr
 
+	#define unigine_object_mesh_spline_cluster_is_deleted_ptr ObjectMeshSplineCluster_isDeletedPtr
+
 	#define unigine_object_mesh_spline_cluster_get_mesh_name ObjectMeshSplineCluster_getMeshName
 
 	#define unigine_object_mesh_spline_cluster_get_num_meshes ObjectMeshSplineCluster_getNumMeshes
@@ -12832,6 +13018,8 @@ extern "C" {
 	#define unigine_object_mesh_static_is_null_ptr ObjectMeshStatic_isNullPtr
 
 	#define unigine_object_mesh_static_delete_later_ptr ObjectMeshStatic_deleteLaterPtr
+
+	#define unigine_object_mesh_static_is_deleted_ptr ObjectMeshStatic_isDeletedPtr
 
 	#define unigine_object_mesh_static_create ObjectMeshStatic_create
 
@@ -12938,6 +13126,8 @@ extern "C" {
 	#define unigine_object_particles_is_null_ptr ObjectParticles_isNullPtr
 
 	#define unigine_object_particles_delete_later_ptr ObjectParticles_deleteLaterPtr
+
+	#define unigine_object_particles_is_deleted_ptr ObjectParticles_isDeletedPtr
 
 	#define unigine_object_particles_create ObjectParticles_create
 
@@ -13369,6 +13559,8 @@ extern "C" {
 
 	#define unigine_object_sky_delete_later_ptr ObjectSky_deleteLaterPtr
 
+	#define unigine_object_sky_is_deleted_ptr ObjectSky_isDeletedPtr
+
 	#define unigine_object_sky_create ObjectSky_create
 
 	#define unigine_object_sky_set_spherical ObjectSky_setSpherical
@@ -13386,6 +13578,8 @@ extern "C" {
 	#define unigine_object_terrain_global_is_null_ptr ObjectTerrainGlobal_isNullPtr
 
 	#define unigine_object_terrain_global_delete_later_ptr ObjectTerrainGlobal_deleteLaterPtr
+
+	#define unigine_object_terrain_global_is_deleted_ptr ObjectTerrainGlobal_isDeletedPtr
 
 	#define unigine_object_terrain_global_create ObjectTerrainGlobal_create
 
@@ -13467,6 +13661,8 @@ extern "C" {
 
 	#define unigine_object_text_delete_later_ptr ObjectText_deleteLaterPtr
 
+	#define unigine_object_text_is_deleted_ptr ObjectText_isDeletedPtr
+
 	#define unigine_object_text_create ObjectText_create
 
 	#define unigine_object_text_create_1 ObjectText_create_1
@@ -13529,6 +13725,8 @@ extern "C" {
 
 	#define unigine_object_volume_box_delete_later_ptr ObjectVolumeBox_deleteLaterPtr
 
+	#define unigine_object_volume_box_is_deleted_ptr ObjectVolumeBox_isDeletedPtr
+
 	#define unigine_object_volume_box_create ObjectVolumeBox_create
 
 	#define unigine_object_volume_box_set_size ObjectVolumeBox_setSize
@@ -13546,6 +13744,8 @@ extern "C" {
 	#define unigine_object_volume_omni_is_null_ptr ObjectVolumeOmni_isNullPtr
 
 	#define unigine_object_volume_omni_delete_later_ptr ObjectVolumeOmni_deleteLaterPtr
+
+	#define unigine_object_volume_omni_is_deleted_ptr ObjectVolumeOmni_isDeletedPtr
 
 	#define unigine_object_volume_omni_create ObjectVolumeOmni_create
 
@@ -13574,6 +13774,8 @@ extern "C" {
 	#define unigine_object_volume_proj_is_null_ptr ObjectVolumeProj_isNullPtr
 
 	#define unigine_object_volume_proj_delete_later_ptr ObjectVolumeProj_deleteLaterPtr
+
+	#define unigine_object_volume_proj_is_deleted_ptr ObjectVolumeProj_isDeletedPtr
 
 	#define unigine_object_volume_proj_create ObjectVolumeProj_create
 
@@ -13613,6 +13815,8 @@ extern "C" {
 
 	#define unigine_object_volume_sphere_delete_later_ptr ObjectVolumeSphere_deleteLaterPtr
 
+	#define unigine_object_volume_sphere_is_deleted_ptr ObjectVolumeSphere_isDeletedPtr
+
 	#define unigine_object_volume_sphere_create ObjectVolumeSphere_create
 
 	#define unigine_object_volume_sphere_set_radius ObjectVolumeSphere_setRadius
@@ -13630,6 +13834,8 @@ extern "C" {
 	#define unigine_object_water_global_is_null_ptr ObjectWaterGlobal_isNullPtr
 
 	#define unigine_object_water_global_delete_later_ptr ObjectWaterGlobal_deleteLaterPtr
+
+	#define unigine_object_water_global_is_deleted_ptr ObjectWaterGlobal_isDeletedPtr
 
 	#define unigine_object_water_global_create ObjectWaterGlobal_create
 
@@ -13672,6 +13878,8 @@ extern "C" {
 	#define unigine_object_water_mesh_is_null_ptr ObjectWaterMesh_isNullPtr
 
 	#define unigine_object_water_mesh_delete_later_ptr ObjectWaterMesh_deleteLaterPtr
+
+	#define unigine_object_water_mesh_is_deleted_ptr ObjectWaterMesh_isDeletedPtr
 
 	#define unigine_object_water_mesh_create ObjectWaterMesh_create
 
@@ -13731,6 +13939,8 @@ extern "C" {
 
 	#define unigine_obstacle_delete_later_ptr Obstacle_deleteLaterPtr
 
+	#define unigine_obstacle_is_deleted_ptr Obstacle_isDeletedPtr
+
 	#define unigine_obstacle_set_obstacle_mask Obstacle_setObstacleMask
 
 	#define unigine_obstacle_get_obstacle_mask Obstacle_getObstacleMask
@@ -13746,6 +13956,8 @@ extern "C" {
 	#define unigine_obstacle_box_is_null_ptr ObstacleBox_isNullPtr
 
 	#define unigine_obstacle_box_delete_later_ptr ObstacleBox_deleteLaterPtr
+
+	#define unigine_obstacle_box_is_deleted_ptr ObstacleBox_isDeletedPtr
 
 	#define unigine_obstacle_box_create ObstacleBox_create
 
@@ -13764,6 +13976,8 @@ extern "C" {
 	#define unigine_obstacle_capsule_is_null_ptr ObstacleCapsule_isNullPtr
 
 	#define unigine_obstacle_capsule_delete_later_ptr ObstacleCapsule_deleteLaterPtr
+
+	#define unigine_obstacle_capsule_is_deleted_ptr ObstacleCapsule_isDeletedPtr
 
 	#define unigine_obstacle_capsule_create ObstacleCapsule_create
 
@@ -13787,6 +14001,8 @@ extern "C" {
 
 	#define unigine_obstacle_sphere_delete_later_ptr ObstacleSphere_deleteLaterPtr
 
+	#define unigine_obstacle_sphere_is_deleted_ptr ObstacleSphere_isDeletedPtr
+
 	#define unigine_obstacle_sphere_create ObstacleSphere_create
 
 	#define unigine_obstacle_sphere_set_radius ObstacleSphere_setRadius
@@ -13804,6 +14020,8 @@ extern "C" {
 	#define unigine_package_ung_is_null_ptr PackageUng_isNullPtr
 
 	#define unigine_package_ung_delete_later_ptr PackageUng_deleteLaterPtr
+
+	#define unigine_package_ung_is_deleted_ptr PackageUng_isDeletedPtr
 
 	#define unigine_package_ung_destruct PackageUng_dtor
 
@@ -13840,6 +14058,8 @@ extern "C" {
 	#define unigine_path_is_null_ptr Path_isNullPtr
 
 	#define unigine_path_delete_later_ptr Path_deleteLaterPtr
+
+	#define unigine_path_is_deleted_ptr Path_isDeletedPtr
 
 	#define unigine_path_destruct Path_dtor
 
@@ -13912,6 +14132,8 @@ extern "C" {
 	#define unigine_path_route_is_null_ptr PathRoute_isNullPtr
 
 	#define unigine_path_route_delete_later_ptr PathRoute_deleteLaterPtr
+
+	#define unigine_path_route_is_deleted_ptr PathRoute_isDeletedPtr
 
 	#define unigine_path_route_destruct PathRoute_dtor
 
@@ -14003,6 +14225,8 @@ extern "C" {
 
 	#define unigine_path_route_intersection_delete_later_ptr PathRouteIntersection_deleteLaterPtr
 
+	#define unigine_path_route_intersection_is_deleted_ptr PathRouteIntersection_isDeletedPtr
+
 	#define unigine_path_route_intersection_destruct PathRouteIntersection_dtor
 
 	#define unigine_path_route_intersection_set_owner PathRouteIntersection_setOwner
@@ -14031,6 +14255,8 @@ extern "C" {
 
 	#define unigine_physical_delete_later_ptr Physical_deleteLaterPtr
 
+	#define unigine_physical_is_deleted_ptr Physical_isDeletedPtr
+
 	#define unigine_physical_set_physical_mask Physical_setPhysicalMask
 
 	#define unigine_physical_get_physical_mask Physical_getPhysicalMask
@@ -14046,6 +14272,8 @@ extern "C" {
 	#define unigine_physical_force_is_null_ptr PhysicalForce_isNullPtr
 
 	#define unigine_physical_force_delete_later_ptr PhysicalForce_deleteLaterPtr
+
+	#define unigine_physical_force_is_deleted_ptr PhysicalForce_isDeletedPtr
 
 	#define unigine_physical_force_create PhysicalForce_create
 
@@ -14076,6 +14304,8 @@ extern "C" {
 	#define unigine_physical_noise_is_null_ptr PhysicalNoise_isNullPtr
 
 	#define unigine_physical_noise_delete_later_ptr PhysicalNoise_deleteLaterPtr
+
+	#define unigine_physical_noise_is_deleted_ptr PhysicalNoise_isDeletedPtr
 
 	#define unigine_physical_noise_create PhysicalNoise_create
 
@@ -14124,6 +14354,8 @@ extern "C" {
 	#define unigine_physical_trigger_is_null_ptr PhysicalTrigger_isNullPtr
 
 	#define unigine_physical_trigger_delete_later_ptr PhysicalTrigger_deleteLaterPtr
+
+	#define unigine_physical_trigger_is_deleted_ptr PhysicalTrigger_isDeletedPtr
 
 	#define unigine_physical_trigger_create PhysicalTrigger_create
 
@@ -14195,6 +14427,8 @@ extern "C" {
 
 	#define unigine_physical_water_delete_later_ptr PhysicalWater_deleteLaterPtr
 
+	#define unigine_physical_water_is_deleted_ptr PhysicalWater_isDeletedPtr
+
 	#define unigine_physical_water_create PhysicalWater_create
 
 	#define unigine_physical_water_set_angular_damping PhysicalWater_setAngularDamping
@@ -14240,6 +14474,8 @@ extern "C" {
 	#define unigine_physical_wind_is_null_ptr PhysicalWind_isNullPtr
 
 	#define unigine_physical_wind_delete_later_ptr PhysicalWind_deleteLaterPtr
+
+	#define unigine_physical_wind_is_deleted_ptr PhysicalWind_isDeletedPtr
 
 	#define unigine_physical_wind_create PhysicalWind_create
 
@@ -14419,6 +14655,8 @@ extern "C" {
 
 	#define unigine_physics_intersection_delete_later_ptr PhysicsIntersection_deleteLaterPtr
 
+	#define unigine_physics_intersection_is_deleted_ptr PhysicsIntersection_isDeletedPtr
+
 	#define unigine_physics_intersection_destruct PhysicsIntersection_dtor
 
 	#define unigine_physics_intersection_set_owner PhysicsIntersection_setOwner
@@ -14455,6 +14693,8 @@ extern "C" {
 
 	#define unigine_physics_intersection_normal_delete_later_ptr PhysicsIntersectionNormal_deleteLaterPtr
 
+	#define unigine_physics_intersection_normal_is_deleted_ptr PhysicsIntersectionNormal_isDeletedPtr
+
 	#define unigine_physics_intersection_normal_set_owner PhysicsIntersectionNormal_setOwner
 
 	#define unigine_physics_intersection_normal_is_owner PhysicsIntersectionNormal_isOwner
@@ -14476,6 +14716,8 @@ extern "C" {
 	#define unigine_player_is_null_ptr Player_isNullPtr
 
 	#define unigine_player_delete_later_ptr Player_deleteLaterPtr
+
+	#define unigine_player_is_deleted_ptr Player_isDeletedPtr
 
 	#define unigine_player_set_projection Player_setProjection
 
@@ -14609,6 +14851,8 @@ extern "C" {
 
 	#define unigine_player_actor_delete_later_ptr PlayerActor_deleteLaterPtr
 
+	#define unigine_player_actor_is_deleted_ptr PlayerActor_isDeletedPtr
+
 	#define unigine_player_actor_create PlayerActor_create
 
 	#define unigine_player_actor_set_physical PlayerActor_setPhysical
@@ -14741,6 +14985,8 @@ extern "C" {
 
 	#define unigine_player_dummy_delete_later_ptr PlayerDummy_deleteLaterPtr
 
+	#define unigine_player_dummy_is_deleted_ptr PlayerDummy_isDeletedPtr
+
 	#define unigine_player_dummy_create PlayerDummy_create
 
 	#define unigine_player_dummy_set_view_direction PlayerDummy_setViewDirection
@@ -14758,6 +15004,8 @@ extern "C" {
 	#define unigine_player_persecutor_is_null_ptr PlayerPersecutor_isNullPtr
 
 	#define unigine_player_persecutor_delete_later_ptr PlayerPersecutor_deleteLaterPtr
+
+	#define unigine_player_persecutor_is_deleted_ptr PlayerPersecutor_isDeletedPtr
 
 	#define unigine_player_persecutor_create PlayerPersecutor_create
 
@@ -14842,6 +15090,8 @@ extern "C" {
 	#define unigine_player_spectator_is_null_ptr PlayerSpectator_isNullPtr
 
 	#define unigine_player_spectator_delete_later_ptr PlayerSpectator_deleteLaterPtr
+
+	#define unigine_player_spectator_is_deleted_ptr PlayerSpectator_isDeletedPtr
 
 	#define unigine_player_spectator_create PlayerSpectator_create
 
@@ -15027,6 +15277,8 @@ extern "C" {
 
 	#define unigine_property_delete_later_ptr Property_deleteLaterPtr
 
+	#define unigine_property_is_deleted_ptr Property_isDeletedPtr
+
 	#define unigine_property_destruct Property_dtor
 
 	#define unigine_property_create Property_create
@@ -15152,6 +15404,8 @@ extern "C" {
 	#define unigine_property_parameter_is_null_ptr PropertyParameter_isNullPtr
 
 	#define unigine_property_parameter_delete_later_ptr PropertyParameter_deleteLaterPtr
+
+	#define unigine_property_parameter_is_deleted_ptr PropertyParameter_isDeletedPtr
 
 	#define unigine_property_parameter_destruct PropertyParameter_dtor
 
@@ -15632,6 +15886,8 @@ extern "C" {
 	#define unigine_reg_exp_is_null_ptr RegExp_isNullPtr
 
 	#define unigine_reg_exp_delete_later_ptr RegExp_deleteLaterPtr
+
+	#define unigine_reg_exp_is_deleted_ptr RegExp_isDeletedPtr
 
 	#define unigine_reg_exp_destruct RegExp_dtor
 
@@ -17579,6 +17835,8 @@ extern "C" {
 
 	#define unigine_render_environment_preset_delete_later_ptr RenderEnvironmentPreset_deleteLaterPtr
 
+	#define unigine_render_environment_preset_is_deleted_ptr RenderEnvironmentPreset_isDeletedPtr
+
 	#define unigine_render_environment_preset_destruct RenderEnvironmentPreset_dtor
 
 	#define unigine_render_environment_preset_get_num RenderEnvironmentPreset_getNum
@@ -17963,6 +18221,8 @@ extern "C" {
 
 	#define unigine_render_target_delete_later_ptr RenderTarget_deleteLaterPtr
 
+	#define unigine_render_target_is_deleted_ptr RenderTarget_isDeletedPtr
+
 	#define unigine_render_target_destruct RenderTarget_dtor
 
 	#define unigine_render_target_set_owner RenderTarget_setOwner
@@ -18026,6 +18286,8 @@ extern "C" {
 	#define unigine_shader_is_null_ptr Shader_isNullPtr
 
 	#define unigine_shader_delete_later_ptr Shader_deleteLaterPtr
+
+	#define unigine_shader_is_deleted_ptr Shader_isDeletedPtr
 
 	#define unigine_shader_destruct Shader_dtor
 
@@ -18329,6 +18591,8 @@ extern "C" {
 
 	#define unigine_shape_delete_later_ptr Shape_deleteLaterPtr
 
+	#define unigine_shape_is_deleted_ptr Shape_isDeletedPtr
+
 	#define unigine_shape_destruct Shape_dtor
 
 	#define unigine_shape_create_shape Shape_createShape
@@ -18451,6 +18715,8 @@ extern "C" {
 
 	#define unigine_shape_box_delete_later_ptr ShapeBox_deleteLaterPtr
 
+	#define unigine_shape_box_is_deleted_ptr ShapeBox_isDeletedPtr
+
 	#define unigine_shape_box_create ShapeBox_create
 
 	#define unigine_shape_box_create_1 ShapeBox_create_1
@@ -18472,6 +18738,8 @@ extern "C" {
 	#define unigine_shape_capsule_is_null_ptr ShapeCapsule_isNullPtr
 
 	#define unigine_shape_capsule_delete_later_ptr ShapeCapsule_deleteLaterPtr
+
+	#define unigine_shape_capsule_is_deleted_ptr ShapeCapsule_isDeletedPtr
 
 	#define unigine_shape_capsule_create ShapeCapsule_create
 
@@ -18500,6 +18768,8 @@ extern "C" {
 	#define unigine_shape_contact_is_null_ptr ShapeContact_isNullPtr
 
 	#define unigine_shape_contact_delete_later_ptr ShapeContact_deleteLaterPtr
+
+	#define unigine_shape_contact_is_deleted_ptr ShapeContact_isDeletedPtr
 
 	#define unigine_shape_contact_destruct ShapeContact_dtor
 
@@ -18557,6 +18827,8 @@ extern "C" {
 
 	#define unigine_shape_convex_delete_later_ptr ShapeConvex_deleteLaterPtr
 
+	#define unigine_shape_convex_is_deleted_ptr ShapeConvex_isDeletedPtr
+
 	#define unigine_shape_convex_create ShapeConvex_create
 
 	#define unigine_shape_convex_create_1 ShapeConvex_create_1
@@ -18576,6 +18848,8 @@ extern "C" {
 	#define unigine_shape_cylinder_is_null_ptr ShapeCylinder_isNullPtr
 
 	#define unigine_shape_cylinder_delete_later_ptr ShapeCylinder_deleteLaterPtr
+
+	#define unigine_shape_cylinder_is_deleted_ptr ShapeCylinder_isDeletedPtr
 
 	#define unigine_shape_cylinder_create ShapeCylinder_create
 
@@ -18603,6 +18877,8 @@ extern "C" {
 
 	#define unigine_shape_sphere_delete_later_ptr ShapeSphere_deleteLaterPtr
 
+	#define unigine_shape_sphere_is_deleted_ptr ShapeSphere_isDeletedPtr
+
 	#define unigine_shape_sphere_create ShapeSphere_create
 
 	#define unigine_shape_sphere_create_1 ShapeSphere_create_1
@@ -18628,6 +18904,8 @@ extern "C" {
 	#define unigine_socket_is_null_ptr Socket_isNullPtr
 
 	#define unigine_socket_delete_later_ptr Socket_deleteLaterPtr
+
+	#define unigine_socket_is_deleted_ptr Socket_isDeletedPtr
 
 	#define unigine_socket_set_owner Socket_setOwner
 
@@ -18755,6 +19033,8 @@ extern "C" {
 
 	#define unigine_sound_reverb_delete_later_ptr SoundReverb_deleteLaterPtr
 
+	#define unigine_sound_reverb_is_deleted_ptr SoundReverb_isDeletedPtr
+
 	#define unigine_sound_reverb_create SoundReverb_create
 
 	#define unigine_sound_reverb_set_reverb_mask SoundReverb_setReverbMask
@@ -18868,6 +19148,8 @@ extern "C" {
 	#define unigine_sound_source_is_null_ptr SoundSource_isNullPtr
 
 	#define unigine_sound_source_delete_later_ptr SoundSource_deleteLaterPtr
+
+	#define unigine_sound_source_is_deleted_ptr SoundSource_isDeletedPtr
 
 	#define unigine_sound_source_create SoundSource_create
 
@@ -19019,6 +19301,8 @@ extern "C" {
 
 	#define unigine_spline_graph_delete_later_ptr SplineGraph_deleteLaterPtr
 
+	#define unigine_spline_graph_is_deleted_ptr SplineGraph_isDeletedPtr
+
 	#define unigine_spline_graph_destruct SplineGraph_dtor
 
 	#define unigine_spline_graph_create SplineGraph_create
@@ -19103,6 +19387,8 @@ extern "C" {
 
 	#define unigine_spline_point_delete_later_ptr SplinePoint_deleteLaterPtr
 
+	#define unigine_spline_point_is_deleted_ptr SplinePoint_isDeletedPtr
+
 	#define unigine_spline_point_destruct SplinePoint_dtor
 
 	#define unigine_spline_point_set_enabled SplinePoint_setEnabled
@@ -19150,6 +19436,8 @@ extern "C" {
 	#define unigine_spline_segment_is_null_ptr SplineSegment_isNullPtr
 
 	#define unigine_spline_segment_delete_later_ptr SplineSegment_deleteLaterPtr
+
+	#define unigine_spline_segment_is_deleted_ptr SplineSegment_isDeletedPtr
 
 	#define unigine_spline_segment_destruct SplineSegment_dtor
 
@@ -19236,6 +19524,8 @@ extern "C" {
 	#define unigine_stream_is_null_ptr Stream_isNullPtr
 
 	#define unigine_stream_delete_later_ptr Stream_deleteLaterPtr
+
+	#define unigine_stream_is_deleted_ptr Stream_isDeletedPtr
 
 	#define unigine_stream_destruct Stream_dtor
 
@@ -19425,6 +19715,8 @@ extern "C" {
 
 	#define unigine_structured_buffer_delete_later_ptr StructuredBuffer_deleteLaterPtr
 
+	#define unigine_structured_buffer_is_deleted_ptr StructuredBuffer_isDeletedPtr
+
 	#define unigine_structured_buffer_destruct StructuredBuffer_dtor
 
 	#define unigine_structured_buffer_set_owner StructuredBuffer_setOwner
@@ -19492,6 +19784,8 @@ extern "C" {
 	#define unigine_system_dialog_is_null_ptr SystemDialog_isNullPtr
 
 	#define unigine_system_dialog_delete_later_ptr SystemDialog_deleteLaterPtr
+
+	#define unigine_system_dialog_is_deleted_ptr SystemDialog_isDeletedPtr
 
 	#define unigine_system_dialog_destruct SystemDialog_dtor
 
@@ -19591,6 +19885,8 @@ extern "C" {
 
 	#define unigine_terrain_detail_delete_later_ptr TerrainDetail_deleteLaterPtr
 
+	#define unigine_terrain_detail_is_deleted_ptr TerrainDetail_isDeletedPtr
+
 	#define unigine_terrain_detail_destruct TerrainDetail_dtor
 
 	#define unigine_terrain_detail_set_name TerrainDetail_setName
@@ -19657,6 +19953,8 @@ extern "C" {
 
 	#define unigine_terrain_detail_mask_delete_later_ptr TerrainDetailMask_deleteLaterPtr
 
+	#define unigine_terrain_detail_mask_is_deleted_ptr TerrainDetailMask_isDeletedPtr
+
 	#define unigine_terrain_detail_mask_destruct TerrainDetailMask_dtor
 
 	#define unigine_terrain_detail_mask_set_name TerrainDetailMask_setName
@@ -19700,6 +19998,8 @@ extern "C" {
 	#define unigine_terrain_global_detail_is_null_ptr TerrainGlobalDetail_isNullPtr
 
 	#define unigine_terrain_global_detail_delete_later_ptr TerrainGlobalDetail_deleteLaterPtr
+
+	#define unigine_terrain_global_detail_is_deleted_ptr TerrainGlobalDetail_isDeletedPtr
 
 	#define unigine_terrain_global_detail_destruct TerrainGlobalDetail_dtor
 
@@ -19837,6 +20137,8 @@ extern "C" {
 
 	#define unigine_terrain_global_lod_delete_later_ptr TerrainGlobalLod_deleteLaterPtr
 
+	#define unigine_terrain_global_lod_is_deleted_ptr TerrainGlobalLod_isDeletedPtr
+
 	#define unigine_terrain_global_lod_destruct TerrainGlobalLod_dtor
 
 	#define unigine_terrain_global_lod_get_type TerrainGlobalLod_getType
@@ -19889,6 +20191,8 @@ extern "C" {
 
 	#define unigine_terrain_global_lod_height_delete_later_ptr TerrainGlobalLodHeight_deleteLaterPtr
 
+	#define unigine_terrain_global_lod_height_is_deleted_ptr TerrainGlobalLodHeight_isDeletedPtr
+
 	#define unigine_terrain_global_lod_height_set_intersection TerrainGlobalLodHeight_setIntersection
 
 	#define unigine_terrain_global_lod_height_is_intersection TerrainGlobalLodHeight_isIntersection
@@ -19918,6 +20222,8 @@ extern "C" {
 	#define unigine_terrain_global_lods_is_null_ptr TerrainGlobalLods_isNullPtr
 
 	#define unigine_terrain_global_lods_delete_later_ptr TerrainGlobalLods_deleteLaterPtr
+
+	#define unigine_terrain_global_lods_is_deleted_ptr TerrainGlobalLods_isDeletedPtr
 
 	#define unigine_terrain_global_lods_destruct TerrainGlobalLods_dtor
 
@@ -19962,6 +20268,8 @@ extern "C" {
 	#define unigine_texture_is_null_ptr Texture_isNullPtr
 
 	#define unigine_texture_delete_later_ptr Texture_deleteLaterPtr
+
+	#define unigine_texture_is_deleted_ptr Texture_isDeletedPtr
 
 	#define unigine_texture_destruct Texture_dtor
 
@@ -20147,6 +20455,8 @@ extern "C" {
 
 	#define unigine_tileset_delete_later_ptr Tileset_deleteLaterPtr
 
+	#define unigine_tileset_is_deleted_ptr Tileset_isDeletedPtr
+
 	#define unigine_tileset_destruct Tileset_dtor
 
 	#define unigine_tileset_get_tile_coord Tileset_getTileCoord
@@ -20222,6 +20532,8 @@ extern "C" {
 	#define unigine_tileset_file_is_null_ptr TilesetFile_isNullPtr
 
 	#define unigine_tileset_file_delete_later_ptr TilesetFile_deleteLaterPtr
+
+	#define unigine_tileset_file_is_deleted_ptr TilesetFile_isDeletedPtr
 
 	#define unigine_tileset_file_destruct TilesetFile_dtor
 
@@ -20317,6 +20629,8 @@ extern "C" {
 
 	#define unigine_ulon_arg_delete_later_ptr UlonArg_deleteLaterPtr
 
+	#define unigine_ulon_arg_is_deleted_ptr UlonArg_isDeletedPtr
+
 	#define unigine_ulon_arg_destruct UlonArg_dtor
 
 	#define unigine_ulon_arg_set_owner UlonArg_setOwner
@@ -20338,6 +20652,8 @@ extern "C" {
 	#define unigine_ulon_node_is_null_ptr UlonNode_isNullPtr
 
 	#define unigine_ulon_node_delete_later_ptr UlonNode_deleteLaterPtr
+
+	#define unigine_ulon_node_is_deleted_ptr UlonNode_isDeletedPtr
 
 	#define unigine_ulon_node_destruct UlonNode_dtor
 
@@ -20384,6 +20700,8 @@ extern "C" {
 	#define unigine_ulon_value_is_null_ptr UlonValue_isNullPtr
 
 	#define unigine_ulon_value_delete_later_ptr UlonValue_deleteLaterPtr
+
+	#define unigine_ulon_value_is_deleted_ptr UlonValue_isDeletedPtr
 
 	#define unigine_ulon_value_destruct UlonValue_dtor
 
@@ -20438,6 +20756,8 @@ extern "C" {
 	#define unigine_user_interface_is_null_ptr UserInterface_isNullPtr
 
 	#define unigine_user_interface_delete_later_ptr UserInterface_deleteLaterPtr
+
+	#define unigine_user_interface_is_deleted_ptr UserInterface_isDeletedPtr
 
 	#define unigine_user_interface_destruct UserInterface_dtor
 
@@ -20911,6 +21231,8 @@ extern "C" {
 
 	#define unigine_viewport_delete_later_ptr Viewport_deleteLaterPtr
 
+	#define unigine_viewport_is_deleted_ptr Viewport_isDeletedPtr
+
 	#define unigine_viewport_destruct Viewport_dtor
 
 	#define unigine_viewport_set_owner Viewport_setOwner
@@ -21135,6 +21457,8 @@ extern "C" {
 
 	#define unigine_widget_delete_later_ptr Widget_deleteLaterPtr
 
+	#define unigine_widget_is_deleted_ptr Widget_isDeletedPtr
+
 	#define unigine_widget_destruct Widget_dtor
 
 	#define unigine_widget_get_type Widget_getType
@@ -21319,6 +21643,8 @@ extern "C" {
 
 	#define unigine_widget_button_delete_later_ptr WidgetButton_deleteLaterPtr
 
+	#define unigine_widget_button_is_deleted_ptr WidgetButton_isDeletedPtr
+
 	#define unigine_widget_button_create WidgetButton_create
 
 	#define unigine_widget_button_set_background WidgetButton_setBackground
@@ -21364,6 +21690,8 @@ extern "C" {
 	#define unigine_widget_canvas_is_null_ptr WidgetCanvas_isNullPtr
 
 	#define unigine_widget_canvas_delete_later_ptr WidgetCanvas_deleteLaterPtr
+
+	#define unigine_widget_canvas_is_deleted_ptr WidgetCanvas_isDeletedPtr
 
 	#define unigine_widget_canvas_create WidgetCanvas_create
 
@@ -21549,6 +21877,8 @@ extern "C" {
 
 	#define unigine_widget_check_box_delete_later_ptr WidgetCheckBox_deleteLaterPtr
 
+	#define unigine_widget_check_box_is_deleted_ptr WidgetCheckBox_isDeletedPtr
+
 	#define unigine_widget_check_box_create WidgetCheckBox_create
 
 	#define unigine_widget_check_box_set_checked_color WidgetCheckBox_setCheckedColor
@@ -21578,6 +21908,8 @@ extern "C" {
 	#define unigine_widget_combo_box_is_null_ptr WidgetComboBox_isNullPtr
 
 	#define unigine_widget_combo_box_delete_later_ptr WidgetComboBox_deleteLaterPtr
+
+	#define unigine_widget_combo_box_is_deleted_ptr WidgetComboBox_isDeletedPtr
 
 	#define unigine_widget_combo_box_create WidgetComboBox_create
 
@@ -21649,6 +21981,8 @@ extern "C" {
 
 	#define unigine_widget_dialog_delete_later_ptr WidgetDialog_deleteLaterPtr
 
+	#define unigine_widget_dialog_is_deleted_ptr WidgetDialog_isDeletedPtr
+
 	#define unigine_widget_dialog_create WidgetDialog_create
 
 	#define unigine_widget_dialog_is_done WidgetDialog_isDone
@@ -21691,6 +22025,8 @@ extern "C" {
 
 	#define unigine_widget_dialog_color_delete_later_ptr WidgetDialogColor_deleteLaterPtr
 
+	#define unigine_widget_dialog_color_is_deleted_ptr WidgetDialogColor_isDeletedPtr
+
 	#define unigine_widget_dialog_color_create WidgetDialogColor_create
 
 	#define unigine_widget_dialog_color_set_color WidgetDialogColor_setColor
@@ -21716,6 +22052,8 @@ extern "C" {
 	#define unigine_widget_dialog_file_is_null_ptr WidgetDialogFile_isNullPtr
 
 	#define unigine_widget_dialog_file_delete_later_ptr WidgetDialogFile_deleteLaterPtr
+
+	#define unigine_widget_dialog_file_is_deleted_ptr WidgetDialogFile_isDeletedPtr
 
 	#define unigine_widget_dialog_file_create WidgetDialogFile_create
 
@@ -21747,6 +22085,8 @@ extern "C" {
 
 	#define unigine_widget_dialog_image_delete_later_ptr WidgetDialogImage_deleteLaterPtr
 
+	#define unigine_widget_dialog_image_is_deleted_ptr WidgetDialogImage_isDeletedPtr
+
 	#define unigine_widget_dialog_image_create WidgetDialogImage_create
 
 	#define unigine_widget_dialog_image_set_image WidgetDialogImage_setImage
@@ -21768,6 +22108,8 @@ extern "C" {
 	#define unigine_widget_dialog_message_is_null_ptr WidgetDialogMessage_isNullPtr
 
 	#define unigine_widget_dialog_message_delete_later_ptr WidgetDialogMessage_deleteLaterPtr
+
+	#define unigine_widget_dialog_message_is_deleted_ptr WidgetDialogMessage_isDeletedPtr
 
 	#define unigine_widget_dialog_message_create WidgetDialogMessage_create
 
@@ -21798,6 +22140,8 @@ extern "C" {
 	#define unigine_widget_edit_line_is_null_ptr WidgetEditLine_isNullPtr
 
 	#define unigine_widget_edit_line_delete_later_ptr WidgetEditLine_deleteLaterPtr
+
+	#define unigine_widget_edit_line_is_deleted_ptr WidgetEditLine_isDeletedPtr
 
 	#define unigine_widget_edit_line_create WidgetEditLine_create
 
@@ -21860,6 +22204,8 @@ extern "C" {
 	#define unigine_widget_edit_text_is_null_ptr WidgetEditText_isNullPtr
 
 	#define unigine_widget_edit_text_delete_later_ptr WidgetEditText_deleteLaterPtr
+
+	#define unigine_widget_edit_text_is_deleted_ptr WidgetEditText_isDeletedPtr
 
 	#define unigine_widget_edit_text_create WidgetEditText_create
 
@@ -21927,6 +22273,8 @@ extern "C" {
 
 	#define unigine_widget_extern_delete_later_ptr WidgetExtern_deleteLaterPtr
 
+	#define unigine_widget_extern_is_deleted_ptr WidgetExtern_isDeletedPtr
+
 	#define unigine_widget_extern_create WidgetExtern_create
 
 	#define unigine_widget_extern_get_class_id WidgetExtern_getClassID
@@ -21943,6 +22291,8 @@ extern "C" {
 
 	#define unigine_widget_extern_base_delete_later_ptr WidgetExternBase_deleteLaterPtr
 
+	#define unigine_widget_extern_base_is_deleted_ptr WidgetExternBase_isDeletedPtr
+
 	#define unigine_widget_grid_box_construct WidgetGridBox_ctor
 
 	#define unigine_widget_grid_box_destruct WidgetGridBox_dtor
@@ -21954,6 +22304,8 @@ extern "C" {
 	#define unigine_widget_grid_box_is_null_ptr WidgetGridBox_isNullPtr
 
 	#define unigine_widget_grid_box_delete_later_ptr WidgetGridBox_deleteLaterPtr
+
+	#define unigine_widget_grid_box_is_deleted_ptr WidgetGridBox_isDeletedPtr
 
 	#define unigine_widget_grid_box_create WidgetGridBox_create
 
@@ -21976,6 +22328,8 @@ extern "C" {
 	#define unigine_widget_group_box_is_null_ptr WidgetGroupBox_isNullPtr
 
 	#define unigine_widget_group_box_delete_later_ptr WidgetGroupBox_deleteLaterPtr
+
+	#define unigine_widget_group_box_is_deleted_ptr WidgetGroupBox_isDeletedPtr
 
 	#define unigine_widget_group_box_create WidgetGroupBox_create
 
@@ -22035,6 +22389,8 @@ extern "C" {
 
 	#define unigine_widget_h_box_delete_later_ptr WidgetHBox_deleteLaterPtr
 
+	#define unigine_widget_h_box_is_deleted_ptr WidgetHBox_isDeletedPtr
+
 	#define unigine_widget_h_box_create WidgetHBox_create
 
 	#define unigine_widget_h_paned_construct WidgetHPaned_ctor
@@ -22049,6 +22405,8 @@ extern "C" {
 
 	#define unigine_widget_h_paned_delete_later_ptr WidgetHPaned_deleteLaterPtr
 
+	#define unigine_widget_h_paned_is_deleted_ptr WidgetHPaned_isDeletedPtr
+
 	#define unigine_widget_h_paned_create WidgetHPaned_create
 
 	#define unigine_widget_icon_construct WidgetIcon_ctor
@@ -22062,6 +22420,8 @@ extern "C" {
 	#define unigine_widget_icon_is_null_ptr WidgetIcon_isNullPtr
 
 	#define unigine_widget_icon_delete_later_ptr WidgetIcon_deleteLaterPtr
+
+	#define unigine_widget_icon_is_deleted_ptr WidgetIcon_isDeletedPtr
 
 	#define unigine_widget_icon_create WidgetIcon_create
 
@@ -22101,6 +22461,8 @@ extern "C" {
 
 	#define unigine_widget_label_delete_later_ptr WidgetLabel_deleteLaterPtr
 
+	#define unigine_widget_label_is_deleted_ptr WidgetLabel_isDeletedPtr
+
 	#define unigine_widget_label_create WidgetLabel_create
 
 	#define unigine_widget_label_set_text_align WidgetLabel_setTextAlign
@@ -22122,6 +22484,8 @@ extern "C" {
 	#define unigine_widget_list_box_is_null_ptr WidgetListBox_isNullPtr
 
 	#define unigine_widget_list_box_delete_later_ptr WidgetListBox_deleteLaterPtr
+
+	#define unigine_widget_list_box_is_deleted_ptr WidgetListBox_isDeletedPtr
 
 	#define unigine_widget_list_box_create WidgetListBox_create
 
@@ -22201,6 +22565,8 @@ extern "C" {
 
 	#define unigine_widget_manipulator_delete_later_ptr WidgetManipulator_deleteLaterPtr
 
+	#define unigine_widget_manipulator_is_deleted_ptr WidgetManipulator_isDeletedPtr
+
 	#define unigine_widget_manipulator_create WidgetManipulator_create
 
 	#define unigine_widget_manipulator_get_focused_axis WidgetManipulator_getFocusedAxis
@@ -22255,6 +22621,8 @@ extern "C" {
 
 	#define unigine_widget_manipulator_rotator_delete_later_ptr WidgetManipulatorRotator_deleteLaterPtr
 
+	#define unigine_widget_manipulator_rotator_is_deleted_ptr WidgetManipulatorRotator_isDeletedPtr
+
 	#define unigine_widget_manipulator_rotator_create WidgetManipulatorRotator_create
 
 	#define unigine_widget_manipulator_scaler_construct WidgetManipulatorScaler_ctor
@@ -22268,6 +22636,8 @@ extern "C" {
 	#define unigine_widget_manipulator_scaler_is_null_ptr WidgetManipulatorScaler_isNullPtr
 
 	#define unigine_widget_manipulator_scaler_delete_later_ptr WidgetManipulatorScaler_deleteLaterPtr
+
+	#define unigine_widget_manipulator_scaler_is_deleted_ptr WidgetManipulatorScaler_isDeletedPtr
 
 	#define unigine_widget_manipulator_scaler_create WidgetManipulatorScaler_create
 
@@ -22283,6 +22653,8 @@ extern "C" {
 
 	#define unigine_widget_manipulator_translator_delete_later_ptr WidgetManipulatorTranslator_deleteLaterPtr
 
+	#define unigine_widget_manipulator_translator_is_deleted_ptr WidgetManipulatorTranslator_isDeletedPtr
+
 	#define unigine_widget_manipulator_translator_create WidgetManipulatorTranslator_create
 
 	#define unigine_widget_menu_bar_construct WidgetMenuBar_ctor
@@ -22296,6 +22668,8 @@ extern "C" {
 	#define unigine_widget_menu_bar_is_null_ptr WidgetMenuBar_isNullPtr
 
 	#define unigine_widget_menu_bar_delete_later_ptr WidgetMenuBar_deleteLaterPtr
+
+	#define unigine_widget_menu_bar_is_deleted_ptr WidgetMenuBar_isDeletedPtr
 
 	#define unigine_widget_menu_bar_create WidgetMenuBar_create
 
@@ -22350,6 +22724,8 @@ extern "C" {
 	#define unigine_widget_menu_box_is_null_ptr WidgetMenuBox_isNullPtr
 
 	#define unigine_widget_menu_box_delete_later_ptr WidgetMenuBox_deleteLaterPtr
+
+	#define unigine_widget_menu_box_is_deleted_ptr WidgetMenuBox_isDeletedPtr
 
 	#define unigine_widget_menu_box_create WidgetMenuBox_create
 
@@ -22453,6 +22829,8 @@ extern "C" {
 
 	#define unigine_widget_scroll_delete_later_ptr WidgetScroll_deleteLaterPtr
 
+	#define unigine_widget_scroll_is_deleted_ptr WidgetScroll_isDeletedPtr
+
 	#define unigine_widget_scroll_create WidgetScroll_create
 
 	#define unigine_widget_scroll_set_scroll_color WidgetScroll_setScrollColor
@@ -22490,6 +22868,8 @@ extern "C" {
 	#define unigine_widget_scroll_box_is_null_ptr WidgetScrollBox_isNullPtr
 
 	#define unigine_widget_scroll_box_delete_later_ptr WidgetScrollBox_deleteLaterPtr
+
+	#define unigine_widget_scroll_box_is_deleted_ptr WidgetScrollBox_isDeletedPtr
 
 	#define unigine_widget_scroll_box_create WidgetScrollBox_create
 
@@ -22579,6 +22959,8 @@ extern "C" {
 
 	#define unigine_widget_slider_delete_later_ptr WidgetSlider_deleteLaterPtr
 
+	#define unigine_widget_slider_is_deleted_ptr WidgetSlider_isDeletedPtr
+
 	#define unigine_widget_slider_create WidgetSlider_create
 
 	#define unigine_widget_slider_set_background_color WidgetSlider_setBackgroundColor
@@ -22633,6 +23015,8 @@ extern "C" {
 
 	#define unigine_widget_spacer_delete_later_ptr WidgetSpacer_deleteLaterPtr
 
+	#define unigine_widget_spacer_is_deleted_ptr WidgetSpacer_isDeletedPtr
+
 	#define unigine_widget_spacer_create WidgetSpacer_create
 
 	#define unigine_widget_spacer_set_orientation WidgetSpacer_setOrientation
@@ -22650,6 +23034,8 @@ extern "C" {
 	#define unigine_widget_spin_box_is_null_ptr WidgetSpinBox_isNullPtr
 
 	#define unigine_widget_spin_box_delete_later_ptr WidgetSpinBox_deleteLaterPtr
+
+	#define unigine_widget_spin_box_is_deleted_ptr WidgetSpinBox_isDeletedPtr
 
 	#define unigine_widget_spin_box_create WidgetSpinBox_create
 
@@ -22688,6 +23074,8 @@ extern "C" {
 	#define unigine_widget_sprite_is_null_ptr WidgetSprite_isNullPtr
 
 	#define unigine_widget_sprite_delete_later_ptr WidgetSprite_deleteLaterPtr
+
+	#define unigine_widget_sprite_is_deleted_ptr WidgetSprite_isDeletedPtr
 
 	#define unigine_widget_sprite_create WidgetSprite_create
 
@@ -22811,6 +23199,8 @@ extern "C" {
 
 	#define unigine_widget_sprite_node_delete_later_ptr WidgetSpriteNode_deleteLaterPtr
 
+	#define unigine_widget_sprite_node_is_deleted_ptr WidgetSpriteNode_isDeletedPtr
+
 	#define unigine_widget_sprite_node_create WidgetSpriteNode_create
 
 	#define unigine_widget_sprite_node_set_camera WidgetSpriteNode_setCamera
@@ -22889,6 +23279,8 @@ extern "C" {
 
 	#define unigine_widget_sprite_shader_delete_later_ptr WidgetSpriteShader_deleteLaterPtr
 
+	#define unigine_widget_sprite_shader_is_deleted_ptr WidgetSpriteShader_isDeletedPtr
+
 	#define unigine_widget_sprite_shader_create WidgetSpriteShader_create
 
 	#define unigine_widget_sprite_shader_set_material WidgetSpriteShader_setMaterial
@@ -22906,6 +23298,8 @@ extern "C" {
 	#define unigine_widget_sprite_video_is_null_ptr WidgetSpriteVideo_isNullPtr
 
 	#define unigine_widget_sprite_video_delete_later_ptr WidgetSpriteVideo_deleteLaterPtr
+
+	#define unigine_widget_sprite_video_is_deleted_ptr WidgetSpriteVideo_isDeletedPtr
 
 	#define unigine_widget_sprite_video_create WidgetSpriteVideo_create
 
@@ -22948,6 +23342,8 @@ extern "C" {
 	#define unigine_widget_sprite_viewport_is_null_ptr WidgetSpriteViewport_isNullPtr
 
 	#define unigine_widget_sprite_viewport_delete_later_ptr WidgetSpriteViewport_deleteLaterPtr
+
+	#define unigine_widget_sprite_viewport_is_deleted_ptr WidgetSpriteViewport_isDeletedPtr
 
 	#define unigine_widget_sprite_viewport_create WidgetSpriteViewport_create
 
@@ -23014,6 +23410,8 @@ extern "C" {
 	#define unigine_widget_tab_box_is_null_ptr WidgetTabBox_isNullPtr
 
 	#define unigine_widget_tab_box_delete_later_ptr WidgetTabBox_deleteLaterPtr
+
+	#define unigine_widget_tab_box_is_deleted_ptr WidgetTabBox_isDeletedPtr
 
 	#define unigine_widget_tab_box_create WidgetTabBox_create
 
@@ -23096,6 +23494,8 @@ extern "C" {
 	#define unigine_widget_tree_box_is_null_ptr WidgetTreeBox_isNullPtr
 
 	#define unigine_widget_tree_box_delete_later_ptr WidgetTreeBox_deleteLaterPtr
+
+	#define unigine_widget_tree_box_is_deleted_ptr WidgetTreeBox_isDeletedPtr
 
 	#define unigine_widget_tree_box_create WidgetTreeBox_create
 
@@ -23205,6 +23605,8 @@ extern "C" {
 
 	#define unigine_widget_v_box_delete_later_ptr WidgetVBox_deleteLaterPtr
 
+	#define unigine_widget_v_box_is_deleted_ptr WidgetVBox_isDeletedPtr
+
 	#define unigine_widget_v_box_create WidgetVBox_create
 
 	#define unigine_widget_v_box_set_space WidgetVBox_setSpace
@@ -23251,6 +23653,8 @@ extern "C" {
 
 	#define unigine_widget_v_paned_delete_later_ptr WidgetVPaned_deleteLaterPtr
 
+	#define unigine_widget_v_paned_is_deleted_ptr WidgetVPaned_isDeletedPtr
+
 	#define unigine_widget_v_paned_create WidgetVPaned_create
 
 	#define unigine_widget_v_paned_set_value WidgetVPaned_setValue
@@ -23280,6 +23684,8 @@ extern "C" {
 	#define unigine_widget_window_is_null_ptr WidgetWindow_isNullPtr
 
 	#define unigine_widget_window_delete_later_ptr WidgetWindow_deleteLaterPtr
+
+	#define unigine_widget_window_is_deleted_ptr WidgetWindow_isDeletedPtr
 
 	#define unigine_widget_window_create WidgetWindow_create
 
@@ -23493,6 +23899,8 @@ extern "C" {
 
 	#define unigine_world_cluster_delete_later_ptr WorldCluster_deleteLaterPtr
 
+	#define unigine_world_cluster_is_deleted_ptr WorldCluster_isDeletedPtr
+
 	#define unigine_world_cluster_create WorldCluster_create
 
 	#define unigine_world_cluster_get_num_references WorldCluster_getNumReferences
@@ -23530,6 +23938,8 @@ extern "C" {
 	#define unigine_world_clutter_is_null_ptr WorldClutter_isNullPtr
 
 	#define unigine_world_clutter_delete_later_ptr WorldClutter_deleteLaterPtr
+
+	#define unigine_world_clutter_is_deleted_ptr WorldClutter_isDeletedPtr
 
 	#define unigine_world_clutter_create WorldClutter_create
 
@@ -23685,6 +24095,8 @@ extern "C" {
 
 	#define unigine_world_expression_delete_later_ptr WorldExpression_deleteLaterPtr
 
+	#define unigine_world_expression_is_deleted_ptr WorldExpression_isDeletedPtr
+
 	#define unigine_world_expression_create WorldExpression_create
 
 	#define unigine_world_expression_set_delta_time WorldExpression_setIFps
@@ -23719,6 +24131,8 @@ extern "C" {
 
 	#define unigine_world_extern_delete_later_ptr WorldExtern_deleteLaterPtr
 
+	#define unigine_world_extern_is_deleted_ptr WorldExtern_isDeletedPtr
+
 	#define unigine_world_extern_create WorldExtern_create
 
 	#define unigine_world_extern_get_class_id WorldExtern_getClassID
@@ -23735,6 +24149,8 @@ extern "C" {
 
 	#define unigine_world_extern_base_delete_later_ptr WorldExternBase_deleteLaterPtr
 
+	#define unigine_world_extern_base_is_deleted_ptr WorldExternBase_isDeletedPtr
+
 	#define unigine_world_intersection_create_empty_ptr WorldIntersection_createEmptyPtr
 
 	#define unigine_world_intersection_get_ptr WorldIntersection_getPtr
@@ -23744,6 +24160,8 @@ extern "C" {
 	#define unigine_world_intersection_is_null_ptr WorldIntersection_isNullPtr
 
 	#define unigine_world_intersection_delete_later_ptr WorldIntersection_deleteLaterPtr
+
+	#define unigine_world_intersection_is_deleted_ptr WorldIntersection_isDeletedPtr
 
 	#define unigine_world_intersection_destruct WorldIntersection_dtor
 
@@ -23785,6 +24203,8 @@ extern "C" {
 
 	#define unigine_world_intersection_normal_delete_later_ptr WorldIntersectionNormal_deleteLaterPtr
 
+	#define unigine_world_intersection_normal_is_deleted_ptr WorldIntersectionNormal_isDeletedPtr
+
 	#define unigine_world_intersection_normal_set_owner WorldIntersectionNormal_setOwner
 
 	#define unigine_world_intersection_normal_is_owner WorldIntersectionNormal_isOwner
@@ -23807,6 +24227,8 @@ extern "C" {
 
 	#define unigine_world_intersection_tex_coord_delete_later_ptr WorldIntersectionTexCoord_deleteLaterPtr
 
+	#define unigine_world_intersection_tex_coord_is_deleted_ptr WorldIntersectionTexCoord_isDeletedPtr
+
 	#define unigine_world_intersection_tex_coord_set_owner WorldIntersectionTexCoord_setOwner
 
 	#define unigine_world_intersection_tex_coord_is_owner WorldIntersectionTexCoord_isOwner
@@ -23828,6 +24250,8 @@ extern "C" {
 	#define unigine_world_layer_is_null_ptr WorldLayer_isNullPtr
 
 	#define unigine_world_layer_delete_later_ptr WorldLayer_deleteLaterPtr
+
+	#define unigine_world_layer_is_deleted_ptr WorldLayer_isDeletedPtr
 
 	#define unigine_world_layer_create WorldLayer_create
 
@@ -23883,6 +24307,8 @@ extern "C" {
 
 	#define unigine_world_occluder_delete_later_ptr WorldOccluder_deleteLaterPtr
 
+	#define unigine_world_occluder_is_deleted_ptr WorldOccluder_isDeletedPtr
+
 	#define unigine_world_occluder_create WorldOccluder_create
 
 	#define unigine_world_occluder_set_back_face WorldOccluder_setBackFace
@@ -23908,6 +24334,8 @@ extern "C" {
 	#define unigine_world_occluder_mesh_is_null_ptr WorldOccluderMesh_isNullPtr
 
 	#define unigine_world_occluder_mesh_delete_later_ptr WorldOccluderMesh_deleteLaterPtr
+
+	#define unigine_world_occluder_mesh_is_deleted_ptr WorldOccluderMesh_isDeletedPtr
 
 	#define unigine_world_occluder_mesh_create WorldOccluderMesh_create
 
@@ -23940,6 +24368,8 @@ extern "C" {
 	#define unigine_world_spline_graph_is_null_ptr WorldSplineGraph_isNullPtr
 
 	#define unigine_world_spline_graph_delete_later_ptr WorldSplineGraph_deleteLaterPtr
+
+	#define unigine_world_spline_graph_is_deleted_ptr WorldSplineGraph_isDeletedPtr
 
 	#define unigine_world_spline_graph_create WorldSplineGraph_create
 
@@ -24047,6 +24477,8 @@ extern "C" {
 
 	#define unigine_world_switcher_delete_later_ptr WorldSwitcher_deleteLaterPtr
 
+	#define unigine_world_switcher_is_deleted_ptr WorldSwitcher_isDeletedPtr
+
 	#define unigine_world_switcher_create WorldSwitcher_create
 
 	#define unigine_world_switcher_set_min_distance WorldSwitcher_setMinDistance
@@ -24069,6 +24501,8 @@ extern "C" {
 
 	#define unigine_world_transform_bone_delete_later_ptr WorldTransformBone_deleteLaterPtr
 
+	#define unigine_world_transform_bone_is_deleted_ptr WorldTransformBone_isDeletedPtr
+
 	#define unigine_world_transform_bone_create WorldTransformBone_create
 
 	#define unigine_world_transform_bone_set_bone_name WorldTransformBone_setBoneName
@@ -24086,6 +24520,8 @@ extern "C" {
 	#define unigine_world_transform_path_is_null_ptr WorldTransformPath_isNullPtr
 
 	#define unigine_world_transform_path_delete_later_ptr WorldTransformPath_deleteLaterPtr
+
+	#define unigine_world_transform_path_is_deleted_ptr WorldTransformPath_isDeletedPtr
 
 	#define unigine_world_transform_path_create WorldTransformPath_create
 
@@ -24135,6 +24571,8 @@ extern "C" {
 
 	#define unigine_world_trigger_delete_later_ptr WorldTrigger_deleteLaterPtr
 
+	#define unigine_world_trigger_is_deleted_ptr WorldTrigger_isDeletedPtr
+
 	#define unigine_world_trigger_create WorldTrigger_create
 
 	#define unigine_world_trigger_set_touch WorldTrigger_setTouch
@@ -24178,6 +24616,8 @@ extern "C" {
 	#define unigine_xml_is_null_ptr Xml_isNullPtr
 
 	#define unigine_xml_delete_later_ptr Xml_deleteLaterPtr
+
+	#define unigine_xml_is_deleted_ptr Xml_isDeletedPtr
 
 	#define unigine_xml_destruct Xml_dtor
 
@@ -24745,6 +25185,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void AmbientSource_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool AmbientSource_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void AmbientSource_dtor(void* self);
 
 	UNIGINE_IMPORT void* AmbientSource_create(const char* name, int32_t stream);
@@ -25119,6 +25561,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void Blob_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool Blob_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void Blob_setOwner(void* self, bool owner);
 
 	UNIGINE_IMPORT int32_t Blob_isOwner(void* self);
@@ -25190,6 +25634,8 @@ extern "C" {
 	UNIGINE_IMPORT bool Body_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void Body_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool Body_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void Body_dtor(void* self);
 
@@ -25395,6 +25841,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void BodyCloth_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool BodyCloth_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* BodyCloth_create(void);
 
 	UNIGINE_IMPORT void* BodyCloth_create_1(void* obj);
@@ -25419,6 +25867,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void BodyDummy_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool BodyDummy_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* BodyDummy_create(void);
 
 	UNIGINE_IMPORT void* BodyDummy_create_1(void* obj);
@@ -25434,6 +25884,8 @@ extern "C" {
 	UNIGINE_IMPORT bool BodyFracture_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void BodyFracture_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool BodyFracture_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* BodyFracture_create(void);
 
@@ -25551,6 +26003,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void BodyParticles_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool BodyParticles_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void BodyParticles_addParticleForce(void* self, int32_t num, unigine_vec3_t* force);
 
 	UNIGINE_IMPORT void BodyParticles_addParticleImpulse(void* self, int32_t num, unigine_vec3_t* impulse);
@@ -25641,6 +26095,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void BodyPath_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool BodyPath_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* BodyPath_create(void);
 
 	UNIGINE_IMPORT void* BodyPath_create_1(void* obj);
@@ -25666,6 +26122,8 @@ extern "C" {
 	UNIGINE_IMPORT bool BodyRagdoll_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void BodyRagdoll_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool BodyRagdoll_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* BodyRagdoll_create(void);
 
@@ -25716,6 +26174,8 @@ extern "C" {
 	UNIGINE_IMPORT bool BodyRigid_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void BodyRigid_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool BodyRigid_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* BodyRigid_create(void);
 
@@ -25825,6 +26285,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void BodyRope_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool BodyRope_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* BodyRope_create(void);
 
 	UNIGINE_IMPORT void* BodyRope_create_1(void* obj);
@@ -25840,6 +26302,8 @@ extern "C" {
 	UNIGINE_IMPORT bool BodyWater_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void BodyWater_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool BodyWater_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* BodyWater_create(void);
 
@@ -26121,6 +26585,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void Camera_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool Camera_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void Camera_dtor(void* self);
 
 	UNIGINE_IMPORT void Camera_setOwner(void* self, bool owner);
@@ -26375,6 +26841,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void Controls_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool Controls_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void Controls_dtor(void* self);
 
 	UNIGINE_IMPORT void* Controls_create(int32_t type);
@@ -26469,6 +26937,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void ControlsDummy_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool ControlsDummy_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* ControlsDummy_create(void);
 
 	UNIGINE_IMPORT void* ControlsJoystick_ctor(void* self);
@@ -26482,6 +26952,8 @@ extern "C" {
 	UNIGINE_IMPORT bool ControlsJoystick_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void ControlsJoystick_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool ControlsJoystick_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* ControlsJoystick_create(int32_t num);
 
@@ -26542,6 +27014,8 @@ extern "C" {
 	UNIGINE_IMPORT bool ControlsSixAxis_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void ControlsSixAxis_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool ControlsSixAxis_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* ControlsSixAxis_create(int32_t num);
 
@@ -26630,6 +27104,8 @@ extern "C" {
 	UNIGINE_IMPORT bool ControlsXPad360_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void ControlsXPad360_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool ControlsXPad360_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* ControlsXPad360_create(int32_t num);
 
@@ -26913,6 +27389,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void Decal_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool Decal_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void Decal_setLifeTime(void* self, float time);
 
 	UNIGINE_IMPORT float Decal_getLifeTime(void* self);
@@ -26983,6 +27461,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void DecalMesh_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool DecalMesh_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* DecalMesh_create(void* mesh, float radius, const char* materialName);
 
 	UNIGINE_IMPORT void* DecalMesh_create_1(const char* meshPath, float radius, const char* materialName);
@@ -27017,6 +27497,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void DecalOrtho_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool DecalOrtho_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* DecalOrtho_create(float radius, float width, float height, const char* material);
 
 	UNIGINE_IMPORT void DecalOrtho_setHeight(void* self, float height);
@@ -27048,6 +27530,8 @@ extern "C" {
 	UNIGINE_IMPORT bool DecalProj_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void DecalProj_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool DecalProj_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* DecalProj_create(float radius, float fov, float aspect, const char* name);
 
@@ -27085,6 +27569,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void wrapper_delete_float_array(void* ptr);
 
+	UNIGINE_IMPORT void wrapper_delete_Mat4_array(void* ptr);
+
 	UNIGINE_IMPORT void wrapper_delete_Object_array(void* ptr);
 
 	UNIGINE_IMPORT void wrapper_delete_vec4_array(void* ptr);
@@ -27114,6 +27600,8 @@ extern "C" {
 	UNIGINE_IMPORT bool Dir_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void Dir_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool Dir_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void Dir_dtor(void* self);
 
@@ -27290,6 +27778,8 @@ extern "C" {
 	UNIGINE_IMPORT bool Ellipsoid_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void Ellipsoid_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool Ellipsoid_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void Ellipsoid_dtor(void* self);
 
@@ -27727,6 +28217,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void Field_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool Field_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void Field_setFieldMask(void* self, int32_t mask);
 
 	UNIGINE_IMPORT int32_t Field_getFieldMask(void* self);
@@ -27746,6 +28238,8 @@ extern "C" {
 	UNIGINE_IMPORT bool FieldAnimation_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void FieldAnimation_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool FieldAnimation_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* FieldAnimation_create(unigine_vec3_t* size);
 
@@ -27788,6 +28282,8 @@ extern "C" {
 	UNIGINE_IMPORT bool FieldHeight_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void FieldHeight_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool FieldHeight_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* FieldHeight_create(void);
 
@@ -27835,6 +28331,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void FieldShoreline_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool FieldShoreline_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* FieldShoreline_create(void);
 
 	UNIGINE_IMPORT void FieldShoreline_setSize(void* self, unigine_vec3_t* size);
@@ -27875,6 +28373,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void FieldSpacer_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool FieldSpacer_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* FieldSpacer_create(unigine_vec3_t* size);
 
 	UNIGINE_IMPORT void FieldSpacer_setEllipse(void* self, bool ellipse);
@@ -27900,6 +28400,8 @@ extern "C" {
 	UNIGINE_IMPORT bool FieldWeather_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void FieldWeather_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool FieldWeather_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* FieldWeather_create(void);
 
@@ -27958,6 +28460,8 @@ extern "C" {
 	UNIGINE_IMPORT bool File_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void File_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool File_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void File_setOwner(void* self, bool owner);
 
@@ -28267,6 +28771,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void FileSystemMount_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool FileSystemMount_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void FileSystemMount_dtor(void* self);
 
 	UNIGINE_IMPORT int32_t FileSystemMount_getAccess(void* self);
@@ -28355,6 +28861,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void GameIntersection_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool GameIntersection_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void GameIntersection_dtor(void* self);
 
 	UNIGINE_IMPORT void GameIntersection_setOwner(void* self, bool owner);
@@ -28378,6 +28886,8 @@ extern "C" {
 	UNIGINE_IMPORT bool GeodeticPivot_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void GeodeticPivot_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool GeodeticPivot_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* GeodeticPivot_create(void);
 
@@ -28597,6 +29107,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void Gui_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool Gui_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void Gui_dtor(void* self);
 
 	UNIGINE_IMPORT void Gui_enable(void* self, int32_t width, int32_t height);
@@ -28810,6 +29322,8 @@ extern "C" {
 	UNIGINE_IMPORT bool Image_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void Image_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool Image_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void Image_dtor(void* self);
 
@@ -29199,6 +29713,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void InputGamePad_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool InputGamePad_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void InputGamePad_dtor(void* self);
 
 	UNIGINE_IMPORT bool InputGamePad_isAvailable(void* self);
@@ -29385,6 +29901,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void Joint_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool Joint_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void Joint_dtor(void* self);
 
 	UNIGINE_IMPORT void* Joint_createJoint(int32_t type);
@@ -29503,6 +30021,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void JointBall_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool JointBall_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* JointBall_create(void);
 
 	UNIGINE_IMPORT void* JointBall_create_1(void* body0, void* body1);
@@ -29550,6 +30070,8 @@ extern "C" {
 	UNIGINE_IMPORT bool JointCylindrical_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void JointCylindrical_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool JointCylindrical_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* JointCylindrical_create(void);
 
@@ -29645,6 +30167,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void JointFixed_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool JointFixed_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* JointFixed_create(void);
 
 	UNIGINE_IMPORT void* JointFixed_create_1(void* body0, void* body1);
@@ -29674,6 +30198,8 @@ extern "C" {
 	UNIGINE_IMPORT bool JointHinge_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void JointHinge_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool JointHinge_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* JointHinge_create(void);
 
@@ -29737,6 +30263,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void JointParticles_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool JointParticles_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* JointParticles_create(void);
 
 	UNIGINE_IMPORT void* JointParticles_create_1(void* body0, void* body1);
@@ -29770,6 +30298,8 @@ extern "C" {
 	UNIGINE_IMPORT bool JointPath_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void JointPath_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool JointPath_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* JointPath_create(void);
 
@@ -29810,6 +30340,8 @@ extern "C" {
 	UNIGINE_IMPORT bool JointPrismatic_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void JointPrismatic_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool JointPrismatic_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* JointPrismatic_create(void);
 
@@ -29880,6 +30412,8 @@ extern "C" {
 	UNIGINE_IMPORT bool JointSuspension_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void JointSuspension_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool JointSuspension_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* JointSuspension_create(void);
 
@@ -29954,6 +30488,8 @@ extern "C" {
 	UNIGINE_IMPORT bool JointWheel_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void JointWheel_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool JointWheel_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* JointWheel_create(void);
 
@@ -30076,6 +30612,8 @@ extern "C" {
 	UNIGINE_IMPORT bool Json_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void Json_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool Json_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void Json_dtor(void* self);
 
@@ -30257,6 +30795,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void LandscapeFetch_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool LandscapeFetch_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void LandscapeFetch_dtor(void* self);
 
 	UNIGINE_IMPORT void LandscapeFetch_setOwner(void* self, bool owner);
@@ -30365,6 +30905,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void LandscapeImages_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool LandscapeImages_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void LandscapeImages_dtor(void* self);
 
 	UNIGINE_IMPORT void LandscapeImages_setOwner(void* self, bool owner);
@@ -30404,6 +30946,8 @@ extern "C" {
 	UNIGINE_IMPORT bool LandscapeLayerMap_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void LandscapeLayerMap_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool LandscapeLayerMap_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* LandscapeLayerMap_create(void);
 
@@ -30452,6 +30996,8 @@ extern "C" {
 	UNIGINE_IMPORT bool LandscapeMapFileCreator_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void LandscapeMapFileCreator_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool LandscapeMapFileCreator_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void LandscapeMapFileCreator_dtor(void* self);
 
@@ -30512,6 +31058,8 @@ extern "C" {
 	UNIGINE_IMPORT bool LandscapeMapFileSettings_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void LandscapeMapFileSettings_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool LandscapeMapFileSettings_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void LandscapeMapFileSettings_dtor(void* self);
 
@@ -30579,6 +31127,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void LandscapeTextures_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool LandscapeTextures_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void LandscapeTextures_dtor(void* self);
 
 	UNIGINE_IMPORT void LandscapeTextures_setOwner(void* self, bool owner);
@@ -30620,6 +31170,8 @@ extern "C" {
 	UNIGINE_IMPORT bool Light_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void Light_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool Light_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* Light_getLensFlare(void* self, int32_t num);
 
@@ -30831,6 +31383,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void LightEnvironmentProbe_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool LightEnvironmentProbe_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* LightEnvironmentProbe_create(unigine_vec4_t* color, unigine_vec3_t* attenuationDistance, const char* name);
 
 	UNIGINE_IMPORT void LightEnvironmentProbe_setAttenuationDistance(void* self, unigine_vec3_t* distance);
@@ -30959,6 +31513,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void LightLensFlare_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool LightLensFlare_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void LightLensFlare_dtor(void* self);
 
 	UNIGINE_IMPORT void LightLensFlare_setName(void* self, const char* name);
@@ -31008,6 +31564,8 @@ extern "C" {
 	UNIGINE_IMPORT bool LightOmni_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void LightOmni_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool LightOmni_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* LightOmni_create(unigine_vec4_t* color, float attenuationDistance, const char* name);
 
@@ -31060,6 +31618,8 @@ extern "C" {
 	UNIGINE_IMPORT bool LightProj_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void LightProj_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool LightProj_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* LightProj_create(unigine_vec4_t* color, float attenuationDistance, float fov, const char* name);
 
@@ -31120,6 +31680,8 @@ extern "C" {
 	UNIGINE_IMPORT bool LightVoxelProbe_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void LightVoxelProbe_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool LightVoxelProbe_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* LightVoxelProbe_create(void);
 
@@ -31294,6 +31856,8 @@ extern "C" {
 	UNIGINE_IMPORT bool LightWorld_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void LightWorld_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool LightWorld_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* LightWorld_create(unigine_vec4_t* color);
 
@@ -31478,6 +32042,8 @@ extern "C" {
 	UNIGINE_IMPORT bool Material_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void Material_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool Material_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void Material_dtor(void* self);
 
@@ -32983,6 +33549,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void Mesh_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool Mesh_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void Mesh_dtor(void* self);
 
 	UNIGINE_IMPORT void Mesh_setOwner(void* self, bool owner);
@@ -33265,6 +33833,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void MeshDynamic_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool MeshDynamic_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void MeshDynamic_dtor(void* self);
 
 	UNIGINE_IMPORT void MeshDynamic_setOwner(void* self, bool owner);
@@ -33515,6 +34085,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void Navigation_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool Navigation_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void Navigation_setDangerous(void* self, float dangerous);
 
 	UNIGINE_IMPORT float Navigation_getDangerous(void* self);
@@ -33553,6 +34125,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void NavigationMesh_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool NavigationMesh_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* NavigationMesh_create(void);
 
 	UNIGINE_IMPORT void* NavigationMesh_create_1(const char* arg1);
@@ -33589,6 +34163,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void NavigationSector_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool NavigationSector_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* NavigationSector_create(unigine_vec3_t* arg1);
 
 	UNIGINE_IMPORT void NavigationSector_setSize(void* self, unigine_vec3_t* size);
@@ -33604,6 +34180,8 @@ extern "C" {
 	UNIGINE_IMPORT bool Node_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void Node_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool Node_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void Node_dtor(void* self);
 
@@ -33981,6 +34559,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void NodeDummy_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool NodeDummy_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* NodeDummy_create(void);
 
 	UNIGINE_IMPORT void* NodeExtern_ctor(void* self);
@@ -33994,6 +34574,8 @@ extern "C" {
 	UNIGINE_IMPORT bool NodeExtern_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void NodeExtern_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool NodeExtern_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* NodeExtern_create(int32_t classId);
 
@@ -34011,6 +34593,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void NodeExternBase_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool NodeExternBase_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* NodeLayer_ctor(void* self);
 
 	UNIGINE_IMPORT void NodeLayer_dtor(void* self);
@@ -34022,6 +34606,8 @@ extern "C" {
 	UNIGINE_IMPORT bool NodeLayer_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void NodeLayer_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool NodeLayer_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* NodeLayer_create(const char* name);
 
@@ -34040,6 +34626,8 @@ extern "C" {
 	UNIGINE_IMPORT bool NodeReference_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void NodeReference_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool NodeReference_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* NodeReference_create(const char* name);
 
@@ -34064,6 +34652,8 @@ extern "C" {
 	UNIGINE_IMPORT bool NodeTrigger_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void NodeTrigger_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool NodeTrigger_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* NodeTrigger_create(void);
 
@@ -34098,6 +34688,8 @@ extern "C" {
 	UNIGINE_IMPORT bool Object_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void Object_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool Object_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void Object_setBody(void* self, void* body, bool update);
 
@@ -34357,6 +34949,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void ObjectBillboards_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool ObjectBillboards_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* ObjectBillboards_create(void);
 
 	UNIGINE_IMPORT void ObjectBillboards_setDepthSort(void* self, int32_t sort);
@@ -34417,6 +35011,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void ObjectCloudLayer_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool ObjectCloudLayer_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* ObjectCloudLayer_create(void);
 
 	UNIGINE_IMPORT void ObjectCloudLayer_setIntersectionThreshold(void* self, float threshold);
@@ -34447,6 +35043,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void ObjectDummy_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool ObjectDummy_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* ObjectDummy_create(void);
 
 	UNIGINE_IMPORT void* ObjectDynamic_ctor(void* self);
@@ -34460,6 +35058,8 @@ extern "C" {
 	UNIGINE_IMPORT bool ObjectDynamic_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void ObjectDynamic_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool ObjectDynamic_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* ObjectDynamic_create(int32_t flags);
 
@@ -34607,6 +35207,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void ObjectExtern_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool ObjectExtern_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* ObjectExtern_create(int32_t classId);
 
 	UNIGINE_IMPORT int32_t ObjectExtern_getClassID(void* self);
@@ -34627,6 +35229,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void ObjectExternBase_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool ObjectExternBase_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* ObjectGrass_ctor(void* self);
 
 	UNIGINE_IMPORT void ObjectGrass_dtor(void* self);
@@ -34638,6 +35242,8 @@ extern "C" {
 	UNIGINE_IMPORT bool ObjectGrass_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void ObjectGrass_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool ObjectGrass_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* ObjectGrass_create(void);
 
@@ -34809,6 +35415,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void ObjectGui_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool ObjectGui_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* ObjectGui_create(float width, float height, const char* name);
 
 	UNIGINE_IMPORT void* ObjectGui_getGui(void* self);
@@ -34867,6 +35475,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void ObjectGuiMesh_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool ObjectGuiMesh_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* ObjectGuiMesh_create(void* mesh, const char* path);
 
 	UNIGINE_IMPORT void* ObjectGuiMesh_create_1(const char* meshName, const char* path, bool unique);
@@ -34919,6 +35529,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void ObjectIntersection_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool ObjectIntersection_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void ObjectIntersection_dtor(void* self);
 
 	UNIGINE_IMPORT void ObjectIntersection_setOwner(void* self, bool owner);
@@ -34955,6 +35567,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void ObjectIntersectionNormal_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool ObjectIntersectionNormal_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void ObjectIntersectionNormal_setOwner(void* self, bool owner);
 
 	UNIGINE_IMPORT int32_t ObjectIntersectionNormal_isOwner(void* self);
@@ -34977,6 +35591,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void ObjectIntersectionTexCoord_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool ObjectIntersectionTexCoord_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void ObjectIntersectionTexCoord_setOwner(void* self, bool owner);
 
 	UNIGINE_IMPORT int32_t ObjectIntersectionTexCoord_isOwner(void* self);
@@ -34998,6 +35614,8 @@ extern "C" {
 	UNIGINE_IMPORT bool ObjectLandscapeTerrain_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void ObjectLandscapeTerrain_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool ObjectLandscapeTerrain_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* ObjectLandscapeTerrain_create(void);
 
@@ -35048,6 +35666,8 @@ extern "C" {
 	UNIGINE_IMPORT bool ObjectMeshCluster_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void ObjectMeshCluster_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool ObjectMeshCluster_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* ObjectMeshCluster_create(const char* path, bool unique);
 
@@ -35124,6 +35744,8 @@ extern "C" {
 	UNIGINE_IMPORT bool ObjectMeshClutter_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void ObjectMeshClutter_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool ObjectMeshClutter_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* ObjectMeshClutter_create(const char* arg1, bool unique);
 
@@ -35309,6 +35931,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void ObjectMeshDynamic_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool ObjectMeshDynamic_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* ObjectMeshDynamic_create(void* mesh, int32_t flags);
 
 	UNIGINE_IMPORT void* ObjectMeshDynamic_create_1(const char* path, int32_t flags);
@@ -35458,6 +36082,8 @@ extern "C" {
 	UNIGINE_IMPORT bool ObjectMeshSkinned_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void ObjectMeshSkinned_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool ObjectMeshSkinned_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* ObjectMeshSkinned_create(void* mesh);
 
@@ -35751,6 +36377,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void ObjectMeshSplineCluster_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool ObjectMeshSplineCluster_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT const char* ObjectMeshSplineCluster_getMeshName(void* self);
 
 	UNIGINE_IMPORT int32_t ObjectMeshSplineCluster_getNumMeshes(void* self);
@@ -35778,6 +36406,8 @@ extern "C" {
 	UNIGINE_IMPORT bool ObjectMeshStatic_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void ObjectMeshStatic_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool ObjectMeshStatic_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* ObjectMeshStatic_create(void* mesh);
 
@@ -35884,6 +36514,8 @@ extern "C" {
 	UNIGINE_IMPORT bool ObjectParticles_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void ObjectParticles_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool ObjectParticles_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* ObjectParticles_create(void);
 
@@ -36315,6 +36947,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void ObjectSky_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool ObjectSky_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* ObjectSky_create(void);
 
 	UNIGINE_IMPORT void ObjectSky_setSpherical(void* self, bool spherical);
@@ -36332,6 +36966,8 @@ extern "C" {
 	UNIGINE_IMPORT bool ObjectTerrainGlobal_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void ObjectTerrainGlobal_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool ObjectTerrainGlobal_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* ObjectTerrainGlobal_create(void);
 
@@ -36413,6 +37049,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void ObjectText_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool ObjectText_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* ObjectText_create(void);
 
 	UNIGINE_IMPORT void* ObjectText_create_1(const char* fontName);
@@ -36475,6 +37113,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void ObjectVolumeBox_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool ObjectVolumeBox_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* ObjectVolumeBox_create(unigine_vec3_t* size);
 
 	UNIGINE_IMPORT void ObjectVolumeBox_setSize(void* self, unigine_vec3_t* size);
@@ -36492,6 +37132,8 @@ extern "C" {
 	UNIGINE_IMPORT bool ObjectVolumeOmni_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void ObjectVolumeOmni_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool ObjectVolumeOmni_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* ObjectVolumeOmni_create(float width, float height, float radius);
 
@@ -36520,6 +37162,8 @@ extern "C" {
 	UNIGINE_IMPORT bool ObjectVolumeProj_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void ObjectVolumeProj_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool ObjectVolumeProj_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* ObjectVolumeProj_create(float width, float height, float fov);
 
@@ -36559,6 +37203,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void ObjectVolumeSphere_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool ObjectVolumeSphere_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* ObjectVolumeSphere_create(unigine_vec3_t* radius);
 
 	UNIGINE_IMPORT void ObjectVolumeSphere_setRadius(void* self, unigine_vec3_t* radius);
@@ -36576,6 +37222,8 @@ extern "C" {
 	UNIGINE_IMPORT bool ObjectWaterGlobal_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void ObjectWaterGlobal_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool ObjectWaterGlobal_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* ObjectWaterGlobal_create(void);
 
@@ -36618,6 +37266,8 @@ extern "C" {
 	UNIGINE_IMPORT bool ObjectWaterMesh_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void ObjectWaterMesh_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool ObjectWaterMesh_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* ObjectWaterMesh_create(void);
 
@@ -36677,6 +37327,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void Obstacle_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool Obstacle_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void Obstacle_setObstacleMask(void* self, int32_t mask);
 
 	UNIGINE_IMPORT int32_t Obstacle_getObstacleMask(void* self);
@@ -36692,6 +37344,8 @@ extern "C" {
 	UNIGINE_IMPORT bool ObstacleBox_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void ObstacleBox_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool ObstacleBox_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* ObstacleBox_create(unigine_vec3_t* arg1);
 
@@ -36710,6 +37364,8 @@ extern "C" {
 	UNIGINE_IMPORT bool ObstacleCapsule_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void ObstacleCapsule_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool ObstacleCapsule_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* ObstacleCapsule_create(float radius, float height);
 
@@ -36733,6 +37389,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void ObstacleSphere_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool ObstacleSphere_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* ObstacleSphere_create(float radius);
 
 	UNIGINE_IMPORT void ObstacleSphere_setRadius(void* self, float radius);
@@ -36750,6 +37408,8 @@ extern "C" {
 	UNIGINE_IMPORT bool PackageUng_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void PackageUng_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool PackageUng_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void PackageUng_dtor(void* self);
 
@@ -36786,6 +37446,8 @@ extern "C" {
 	UNIGINE_IMPORT bool Path_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void Path_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool Path_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void Path_dtor(void* self);
 
@@ -36858,6 +37520,8 @@ extern "C" {
 	UNIGINE_IMPORT bool PathRoute_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void PathRoute_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool PathRoute_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void PathRoute_dtor(void* self);
 
@@ -36949,6 +37613,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void PathRouteIntersection_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool PathRouteIntersection_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void PathRouteIntersection_dtor(void* self);
 
 	UNIGINE_IMPORT void PathRouteIntersection_setOwner(void* self, bool owner);
@@ -36977,6 +37643,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void Physical_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool Physical_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void Physical_setPhysicalMask(void* self, int32_t mask);
 
 	UNIGINE_IMPORT int32_t Physical_getPhysicalMask(void* self);
@@ -36992,6 +37660,8 @@ extern "C" {
 	UNIGINE_IMPORT bool PhysicalForce_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void PhysicalForce_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool PhysicalForce_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* PhysicalForce_create(float radius);
 
@@ -37022,6 +37692,8 @@ extern "C" {
 	UNIGINE_IMPORT bool PhysicalNoise_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void PhysicalNoise_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool PhysicalNoise_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* PhysicalNoise_create(unigine_vec3_t* size);
 
@@ -37070,6 +37742,8 @@ extern "C" {
 	UNIGINE_IMPORT bool PhysicalTrigger_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void PhysicalTrigger_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool PhysicalTrigger_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* PhysicalTrigger_create(unigine_shape_type_t type, unigine_vec3_t* size);
 
@@ -37141,6 +37815,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void PhysicalWater_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool PhysicalWater_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* PhysicalWater_create(unigine_vec3_t* size);
 
 	UNIGINE_IMPORT void PhysicalWater_setAngularDamping(void* self, float damping);
@@ -37186,6 +37862,8 @@ extern "C" {
 	UNIGINE_IMPORT bool PhysicalWind_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void PhysicalWind_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool PhysicalWind_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* PhysicalWind_create(unigine_vec3_t* size);
 
@@ -37365,6 +38043,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void PhysicsIntersection_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool PhysicsIntersection_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void PhysicsIntersection_dtor(void* self);
 
 	UNIGINE_IMPORT void PhysicsIntersection_setOwner(void* self, bool owner);
@@ -37401,6 +38081,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void PhysicsIntersectionNormal_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool PhysicsIntersectionNormal_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void PhysicsIntersectionNormal_setOwner(void* self, bool owner);
 
 	UNIGINE_IMPORT int32_t PhysicsIntersectionNormal_isOwner(void* self);
@@ -37422,6 +38104,8 @@ extern "C" {
 	UNIGINE_IMPORT bool Player_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void Player_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool Player_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void Player_setProjection(void* self, unigine_mat4_t* projection);
 
@@ -37555,6 +38239,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void PlayerActor_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool PlayerActor_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* PlayerActor_create(void);
 
 	UNIGINE_IMPORT void PlayerActor_setPhysical(void* self, bool physical);
@@ -37687,6 +38373,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void PlayerDummy_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool PlayerDummy_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* PlayerDummy_create(void);
 
 	UNIGINE_IMPORT void PlayerDummy_setViewDirection(void* self, unigine_vec3_t* direction);
@@ -37704,6 +38392,8 @@ extern "C" {
 	UNIGINE_IMPORT bool PlayerPersecutor_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void PlayerPersecutor_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool PlayerPersecutor_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* PlayerPersecutor_create(void);
 
@@ -37788,6 +38478,8 @@ extern "C" {
 	UNIGINE_IMPORT bool PlayerSpectator_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void PlayerSpectator_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool PlayerSpectator_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* PlayerSpectator_create(void);
 
@@ -37973,6 +38665,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void Property_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool Property_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void Property_dtor(void* self);
 
 	UNIGINE_IMPORT void* Property_create(void);
@@ -38098,6 +38792,8 @@ extern "C" {
 	UNIGINE_IMPORT bool PropertyParameter_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void PropertyParameter_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool PropertyParameter_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void PropertyParameter_dtor(void* self);
 
@@ -38578,6 +39274,8 @@ extern "C" {
 	UNIGINE_IMPORT bool RegExp_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void RegExp_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool RegExp_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void RegExp_dtor(void* self);
 
@@ -40525,6 +41223,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void RenderEnvironmentPreset_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool RenderEnvironmentPreset_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void RenderEnvironmentPreset_dtor(void* self);
 
 	UNIGINE_IMPORT int32_t RenderEnvironmentPreset_getNum(void* self);
@@ -40909,6 +41609,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void RenderTarget_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool RenderTarget_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void RenderTarget_dtor(void* self);
 
 	UNIGINE_IMPORT void RenderTarget_setOwner(void* self, bool owner);
@@ -40972,6 +41674,8 @@ extern "C" {
 	UNIGINE_IMPORT bool Shader_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void Shader_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool Shader_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void Shader_dtor(void* self);
 
@@ -41275,6 +41979,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void Shape_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool Shape_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void Shape_dtor(void* self);
 
 	UNIGINE_IMPORT void* Shape_createShape(int32_t type);
@@ -41397,6 +42103,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void ShapeBox_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool ShapeBox_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* ShapeBox_create(void);
 
 	UNIGINE_IMPORT void* ShapeBox_create_1(unigine_vec3_t* size);
@@ -41418,6 +42126,8 @@ extern "C" {
 	UNIGINE_IMPORT bool ShapeCapsule_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void ShapeCapsule_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool ShapeCapsule_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* ShapeCapsule_create(void);
 
@@ -41446,6 +42156,8 @@ extern "C" {
 	UNIGINE_IMPORT bool ShapeContact_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void ShapeContact_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool ShapeContact_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void ShapeContact_dtor(void* self);
 
@@ -41503,6 +42215,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void ShapeConvex_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool ShapeConvex_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* ShapeConvex_create(void);
 
 	UNIGINE_IMPORT void* ShapeConvex_create_1(void* obj, int32_t surface);
@@ -41522,6 +42236,8 @@ extern "C" {
 	UNIGINE_IMPORT bool ShapeCylinder_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void ShapeCylinder_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool ShapeCylinder_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* ShapeCylinder_create(void);
 
@@ -41549,6 +42265,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void ShapeSphere_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool ShapeSphere_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* ShapeSphere_create(void);
 
 	UNIGINE_IMPORT void* ShapeSphere_create_1(float radius);
@@ -41574,6 +42292,8 @@ extern "C" {
 	UNIGINE_IMPORT bool Socket_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void Socket_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool Socket_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void Socket_setOwner(void* self, bool owner);
 
@@ -41701,6 +42421,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void SoundReverb_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool SoundReverb_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* SoundReverb_create(unigine_vec3_t* arg1);
 
 	UNIGINE_IMPORT void SoundReverb_setReverbMask(void* self, int32_t mask);
@@ -41814,6 +42536,8 @@ extern "C" {
 	UNIGINE_IMPORT bool SoundSource_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void SoundSource_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool SoundSource_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* SoundSource_create(const char* name, int32_t stream);
 
@@ -41965,6 +42689,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void SplineGraph_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool SplineGraph_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void SplineGraph_dtor(void* self);
 
 	UNIGINE_IMPORT void* SplineGraph_create(void);
@@ -42049,6 +42775,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void SplinePoint_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool SplinePoint_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void SplinePoint_dtor(void* self);
 
 	UNIGINE_IMPORT void SplinePoint_setEnabled(void* self, bool enable, bool withSegments);
@@ -42096,6 +42824,8 @@ extern "C" {
 	UNIGINE_IMPORT bool SplineSegment_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void SplineSegment_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool SplineSegment_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void SplineSegment_dtor(void* self);
 
@@ -42182,6 +42912,8 @@ extern "C" {
 	UNIGINE_IMPORT bool Stream_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void Stream_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool Stream_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void Stream_dtor(void* self);
 
@@ -42371,6 +43103,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void StructuredBuffer_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool StructuredBuffer_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void StructuredBuffer_dtor(void* self);
 
 	UNIGINE_IMPORT void StructuredBuffer_setOwner(void* self, bool owner);
@@ -42438,6 +43172,8 @@ extern "C" {
 	UNIGINE_IMPORT bool SystemDialog_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void SystemDialog_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool SystemDialog_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void SystemDialog_dtor(void* self);
 
@@ -42537,6 +43273,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void TerrainDetail_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool TerrainDetail_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void TerrainDetail_dtor(void* self);
 
 	UNIGINE_IMPORT void TerrainDetail_setName(void* self, const char* name);
@@ -42603,6 +43341,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void TerrainDetailMask_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool TerrainDetailMask_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void TerrainDetailMask_dtor(void* self);
 
 	UNIGINE_IMPORT void TerrainDetailMask_setName(void* self, const char* name);
@@ -42646,6 +43386,8 @@ extern "C" {
 	UNIGINE_IMPORT bool TerrainGlobalDetail_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void TerrainGlobalDetail_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool TerrainGlobalDetail_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void TerrainGlobalDetail_dtor(void* self);
 
@@ -42783,6 +43525,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void TerrainGlobalLod_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool TerrainGlobalLod_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void TerrainGlobalLod_dtor(void* self);
 
 	UNIGINE_IMPORT unigine_terrain_global_lod_type_t TerrainGlobalLod_getType(void* self);
@@ -42835,6 +43579,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void TerrainGlobalLodHeight_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool TerrainGlobalLodHeight_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void TerrainGlobalLodHeight_setIntersection(void* self, bool intersection);
 
 	UNIGINE_IMPORT bool TerrainGlobalLodHeight_isIntersection(void* self);
@@ -42864,6 +43610,8 @@ extern "C" {
 	UNIGINE_IMPORT bool TerrainGlobalLods_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void TerrainGlobalLods_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool TerrainGlobalLods_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void TerrainGlobalLods_dtor(void* self);
 
@@ -42908,6 +43656,8 @@ extern "C" {
 	UNIGINE_IMPORT bool Texture_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void Texture_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool Texture_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void Texture_dtor(void* self);
 
@@ -43093,6 +43843,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void Tileset_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool Tileset_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void Tileset_dtor(void* self);
 
 	UNIGINE_IMPORT void Tileset_getTileCoord(void* self, unigine_ivec2_t* ref, unigine_dvec2_t* flatPosition);
@@ -43168,6 +43920,8 @@ extern "C" {
 	UNIGINE_IMPORT bool TilesetFile_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void TilesetFile_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool TilesetFile_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void TilesetFile_dtor(void* self);
 
@@ -43263,6 +44017,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void UlonArg_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool UlonArg_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void UlonArg_dtor(void* self);
 
 	UNIGINE_IMPORT void UlonArg_setOwner(void* self, bool owner);
@@ -43284,6 +44040,8 @@ extern "C" {
 	UNIGINE_IMPORT bool UlonNode_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void UlonNode_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool UlonNode_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void UlonNode_dtor(void* self);
 
@@ -43330,6 +44088,8 @@ extern "C" {
 	UNIGINE_IMPORT bool UlonValue_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void UlonValue_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool UlonValue_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void UlonValue_dtor(void* self);
 
@@ -43384,6 +44144,8 @@ extern "C" {
 	UNIGINE_IMPORT bool UserInterface_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void UserInterface_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool UserInterface_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void UserInterface_dtor(void* self);
 
@@ -43857,6 +44619,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void Viewport_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool Viewport_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void Viewport_dtor(void* self);
 
 	UNIGINE_IMPORT void Viewport_setOwner(void* self, bool owner);
@@ -44081,6 +44845,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void Widget_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool Widget_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void Widget_dtor(void* self);
 
 	UNIGINE_IMPORT unigine_widget_type_t Widget_getType(void* self);
@@ -44265,6 +45031,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void WidgetButton_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool WidgetButton_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* WidgetButton_create(void* gui, const char* str);
 
 	UNIGINE_IMPORT void WidgetButton_setBackground(void* self, int32_t background);
@@ -44310,6 +45078,8 @@ extern "C" {
 	UNIGINE_IMPORT bool WidgetCanvas_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void WidgetCanvas_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool WidgetCanvas_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* WidgetCanvas_create(void* gui);
 
@@ -44495,6 +45265,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void WidgetCheckBox_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool WidgetCheckBox_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* WidgetCheckBox_create(void* gui, const char* str);
 
 	UNIGINE_IMPORT void WidgetCheckBox_setCheckedColor(void* self, unigine_vec4_t* color);
@@ -44524,6 +45296,8 @@ extern "C" {
 	UNIGINE_IMPORT bool WidgetComboBox_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void WidgetComboBox_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool WidgetComboBox_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* WidgetComboBox_create(void* gui);
 
@@ -44595,6 +45369,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void WidgetDialog_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool WidgetDialog_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* WidgetDialog_create(void* gui, const char* str, int32_t x, int32_t y);
 
 	UNIGINE_IMPORT bool WidgetDialog_isDone(void* self);
@@ -44637,6 +45413,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void WidgetDialogColor_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool WidgetDialogColor_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* WidgetDialogColor_create(void* gui, const char* str);
 
 	UNIGINE_IMPORT void WidgetDialogColor_setColor(void* self, unigine_vec4_t* color);
@@ -44662,6 +45440,8 @@ extern "C" {
 	UNIGINE_IMPORT bool WidgetDialogFile_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void WidgetDialogFile_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool WidgetDialogFile_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* WidgetDialogFile_create(void* gui, const char* str);
 
@@ -44693,6 +45473,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void WidgetDialogImage_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool WidgetDialogImage_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* WidgetDialogImage_create(void* gui, const char* str);
 
 	UNIGINE_IMPORT void WidgetDialogImage_setImage(void* self, void* image);
@@ -44714,6 +45496,8 @@ extern "C" {
 	UNIGINE_IMPORT bool WidgetDialogMessage_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void WidgetDialogMessage_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool WidgetDialogMessage_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* WidgetDialogMessage_create(void* gui, const char* str);
 
@@ -44744,6 +45528,8 @@ extern "C" {
 	UNIGINE_IMPORT bool WidgetEditLine_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void WidgetEditLine_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool WidgetEditLine_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* WidgetEditLine_create(void* gui, const char* str);
 
@@ -44806,6 +45592,8 @@ extern "C" {
 	UNIGINE_IMPORT bool WidgetEditText_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void WidgetEditText_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool WidgetEditText_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* WidgetEditText_create(void* gui, const char* str);
 
@@ -44873,6 +45661,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void WidgetExtern_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool WidgetExtern_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* WidgetExtern_create(void* gui, int32_t classId);
 
 	UNIGINE_IMPORT int32_t WidgetExtern_getClassID(void* self);
@@ -44889,6 +45679,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void WidgetExternBase_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool WidgetExternBase_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* WidgetGridBox_ctor(void* self);
 
 	UNIGINE_IMPORT void WidgetGridBox_dtor(void* self);
@@ -44900,6 +45692,8 @@ extern "C" {
 	UNIGINE_IMPORT bool WidgetGridBox_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void WidgetGridBox_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool WidgetGridBox_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* WidgetGridBox_create(void* gui, int32_t num, int32_t x, int32_t y);
 
@@ -44922,6 +45716,8 @@ extern "C" {
 	UNIGINE_IMPORT bool WidgetGroupBox_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void WidgetGroupBox_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool WidgetGroupBox_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* WidgetGroupBox_create(void* gui, const char* str, int32_t x, int32_t y);
 
@@ -44981,6 +45777,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void WidgetHBox_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool WidgetHBox_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* WidgetHBox_create(void* gui, int32_t x, int32_t y);
 
 	UNIGINE_IMPORT void* WidgetHPaned_ctor(void* self);
@@ -44995,6 +45793,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void WidgetHPaned_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool WidgetHPaned_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* WidgetHPaned_create(void* gui);
 
 	UNIGINE_IMPORT void* WidgetIcon_ctor(void* self);
@@ -45008,6 +45808,8 @@ extern "C" {
 	UNIGINE_IMPORT bool WidgetIcon_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void WidgetIcon_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool WidgetIcon_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* WidgetIcon_create(void* gui, const char* str, int32_t width, int32_t height);
 
@@ -45047,6 +45849,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void WidgetLabel_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool WidgetLabel_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* WidgetLabel_create(void* gui, const char* str);
 
 	UNIGINE_IMPORT void WidgetLabel_setTextAlign(void* self, int32_t align);
@@ -45068,6 +45872,8 @@ extern "C" {
 	UNIGINE_IMPORT bool WidgetListBox_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void WidgetListBox_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool WidgetListBox_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* WidgetListBox_create(void* gui);
 
@@ -45147,6 +45953,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void WidgetManipulator_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool WidgetManipulator_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* WidgetManipulator_create(void* gui);
 
 	UNIGINE_IMPORT int32_t WidgetManipulator_getFocusedAxis(void* self);
@@ -45201,6 +46009,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void WidgetManipulatorRotator_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool WidgetManipulatorRotator_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* WidgetManipulatorRotator_create(void* gui);
 
 	UNIGINE_IMPORT void* WidgetManipulatorScaler_ctor(void* self);
@@ -45214,6 +46024,8 @@ extern "C" {
 	UNIGINE_IMPORT bool WidgetManipulatorScaler_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void WidgetManipulatorScaler_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool WidgetManipulatorScaler_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* WidgetManipulatorScaler_create(void* gui);
 
@@ -45229,6 +46041,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void WidgetManipulatorTranslator_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool WidgetManipulatorTranslator_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* WidgetManipulatorTranslator_create(void* gui);
 
 	UNIGINE_IMPORT void* WidgetMenuBar_ctor(void* self);
@@ -45242,6 +46056,8 @@ extern "C" {
 	UNIGINE_IMPORT bool WidgetMenuBar_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void WidgetMenuBar_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool WidgetMenuBar_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* WidgetMenuBar_create(void* gui, int32_t x, int32_t y);
 
@@ -45296,6 +46112,8 @@ extern "C" {
 	UNIGINE_IMPORT bool WidgetMenuBox_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void WidgetMenuBox_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool WidgetMenuBox_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* WidgetMenuBox_create(void* gui, int32_t x, int32_t y);
 
@@ -45399,6 +46217,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void WidgetScroll_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool WidgetScroll_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* WidgetScroll_create(void* gui, int32_t obj, int32_t frame, int32_t step, int32_t val);
 
 	UNIGINE_IMPORT void WidgetScroll_setScrollColor(void* self, unigine_vec4_t* color);
@@ -45436,6 +46256,8 @@ extern "C" {
 	UNIGINE_IMPORT bool WidgetScrollBox_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void WidgetScrollBox_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool WidgetScrollBox_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* WidgetScrollBox_create(void* gui, int32_t x, int32_t y);
 
@@ -45525,6 +46347,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void WidgetSlider_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool WidgetSlider_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* WidgetSlider_create(void* gui, int32_t min, int32_t max, int32_t val);
 
 	UNIGINE_IMPORT void WidgetSlider_setBackgroundColor(void* self, unigine_vec4_t* color);
@@ -45579,6 +46403,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void WidgetSpacer_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool WidgetSpacer_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* WidgetSpacer_create(void* gui);
 
 	UNIGINE_IMPORT void WidgetSpacer_setOrientation(void* self, int32_t orientation);
@@ -45596,6 +46422,8 @@ extern "C" {
 	UNIGINE_IMPORT bool WidgetSpinBox_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void WidgetSpinBox_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool WidgetSpinBox_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* WidgetSpinBox_create(void* gui, int32_t min, int32_t max, int32_t val);
 
@@ -45634,6 +46462,8 @@ extern "C" {
 	UNIGINE_IMPORT bool WidgetSprite_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void WidgetSprite_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool WidgetSprite_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* WidgetSprite_create(void* gui, const char* name);
 
@@ -45757,6 +46587,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void WidgetSpriteNode_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool WidgetSpriteNode_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* WidgetSpriteNode_create(void* gui, int32_t width, int32_t height);
 
 	UNIGINE_IMPORT void WidgetSpriteNode_setCamera(void* self, void* camera);
@@ -45835,6 +46667,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void WidgetSpriteShader_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool WidgetSpriteShader_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* WidgetSpriteShader_create(void* gui, const char* name);
 
 	UNIGINE_IMPORT void WidgetSpriteShader_setMaterial(void* self, void* material);
@@ -45852,6 +46686,8 @@ extern "C" {
 	UNIGINE_IMPORT bool WidgetSpriteVideo_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void WidgetSpriteVideo_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool WidgetSpriteVideo_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* WidgetSpriteVideo_create(void* gui, const char* name, int32_t mode);
 
@@ -45894,6 +46730,8 @@ extern "C" {
 	UNIGINE_IMPORT bool WidgetSpriteViewport_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void WidgetSpriteViewport_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool WidgetSpriteViewport_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* WidgetSpriteViewport_create(void* gui, int32_t width, int32_t height);
 
@@ -45960,6 +46798,8 @@ extern "C" {
 	UNIGINE_IMPORT bool WidgetTabBox_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void WidgetTabBox_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool WidgetTabBox_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* WidgetTabBox_create(void* gui, int32_t x, int32_t y);
 
@@ -46042,6 +46882,8 @@ extern "C" {
 	UNIGINE_IMPORT bool WidgetTreeBox_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void WidgetTreeBox_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool WidgetTreeBox_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* WidgetTreeBox_create(void* gui);
 
@@ -46151,6 +46993,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void WidgetVBox_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool WidgetVBox_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* WidgetVBox_create(void* gui, int32_t x, int32_t y);
 
 	UNIGINE_IMPORT void WidgetVBox_setSpace(void* self, int32_t x, int32_t y);
@@ -46197,6 +47041,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void WidgetVPaned_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool WidgetVPaned_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* WidgetVPaned_create(void* gui);
 
 	UNIGINE_IMPORT void WidgetVPaned_setValue(void* self, int32_t val);
@@ -46226,6 +47072,8 @@ extern "C" {
 	UNIGINE_IMPORT bool WidgetWindow_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void WidgetWindow_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool WidgetWindow_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* WidgetWindow_create(void* gui, const char* str, int32_t x, int32_t y);
 
@@ -46439,6 +47287,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void WorldCluster_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool WorldCluster_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* WorldCluster_create(void);
 
 	UNIGINE_IMPORT int32_t WorldCluster_getNumReferences(void* self);
@@ -46476,6 +47326,8 @@ extern "C" {
 	UNIGINE_IMPORT bool WorldClutter_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void WorldClutter_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool WorldClutter_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* WorldClutter_create(void);
 
@@ -46631,6 +47483,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void WorldExpression_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool WorldExpression_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* WorldExpression_create(void);
 
 	UNIGINE_IMPORT void WorldExpression_setIFps(void* self, float ifps);
@@ -46665,6 +47519,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void WorldExtern_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool WorldExtern_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* WorldExtern_create(int32_t classId);
 
 	UNIGINE_IMPORT int32_t WorldExtern_getClassID(void* self);
@@ -46681,6 +47537,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void WorldExternBase_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool WorldExternBase_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* WorldIntersection_createEmptyPtr(void);
 
 	UNIGINE_IMPORT void* WorldIntersection_getPtr(void* self);
@@ -46690,6 +47548,8 @@ extern "C" {
 	UNIGINE_IMPORT bool WorldIntersection_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void WorldIntersection_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool WorldIntersection_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void WorldIntersection_dtor(void* self);
 
@@ -46731,6 +47591,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void WorldIntersectionNormal_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool WorldIntersectionNormal_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void WorldIntersectionNormal_setOwner(void* self, bool owner);
 
 	UNIGINE_IMPORT int32_t WorldIntersectionNormal_isOwner(void* self);
@@ -46753,6 +47615,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void WorldIntersectionTexCoord_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool WorldIntersectionTexCoord_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void WorldIntersectionTexCoord_setOwner(void* self, bool owner);
 
 	UNIGINE_IMPORT int32_t WorldIntersectionTexCoord_isOwner(void* self);
@@ -46774,6 +47638,8 @@ extern "C" {
 	UNIGINE_IMPORT bool WorldLayer_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void WorldLayer_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool WorldLayer_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* WorldLayer_create(unigine_vec3_t* size, const char* name);
 
@@ -46829,6 +47695,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void WorldOccluder_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool WorldOccluder_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* WorldOccluder_create(unigine_vec3_t* size);
 
 	UNIGINE_IMPORT void WorldOccluder_setBackFace(void* self, bool face);
@@ -46854,6 +47722,8 @@ extern "C" {
 	UNIGINE_IMPORT bool WorldOccluderMesh_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void WorldOccluderMesh_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool WorldOccluderMesh_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* WorldOccluderMesh_create(void);
 
@@ -46886,6 +47756,8 @@ extern "C" {
 	UNIGINE_IMPORT bool WorldSplineGraph_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void WorldSplineGraph_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool WorldSplineGraph_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* WorldSplineGraph_create(void);
 
@@ -46993,6 +47865,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void WorldSwitcher_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool WorldSwitcher_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* WorldSwitcher_create(void);
 
 	UNIGINE_IMPORT void WorldSwitcher_setMinDistance(void* self, float distance);
@@ -47015,6 +47889,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void WorldTransformBone_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool WorldTransformBone_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* WorldTransformBone_create(const char* name);
 
 	UNIGINE_IMPORT void WorldTransformBone_setBoneName(void* self, const char* name);
@@ -47032,6 +47908,8 @@ extern "C" {
 	UNIGINE_IMPORT bool WorldTransformPath_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void WorldTransformPath_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool WorldTransformPath_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void* WorldTransformPath_create(const char* name, int32_t unique);
 
@@ -47081,6 +47959,8 @@ extern "C" {
 
 	UNIGINE_IMPORT void WorldTrigger_deleteLaterPtr(void* self);
 
+	UNIGINE_IMPORT bool WorldTrigger_isDeletedPtr(void* self);
+
 	UNIGINE_IMPORT void* WorldTrigger_create(unigine_vec3_t* size);
 
 	UNIGINE_IMPORT void WorldTrigger_setTouch(void* self, bool touch);
@@ -47124,6 +48004,8 @@ extern "C" {
 	UNIGINE_IMPORT bool Xml_isNullPtr(void* self);
 
 	UNIGINE_IMPORT void Xml_deleteLaterPtr(void* self);
+
+	UNIGINE_IMPORT bool Xml_isDeletedPtr(void* self);
 
 	UNIGINE_IMPORT void Xml_dtor(void* self);
 
