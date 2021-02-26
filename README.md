@@ -2,7 +2,7 @@
   <img src="https://i.imgur.com/s3r4mxS.png" alt="alt logo">
 </p>
 
-[![GitHub release](https://img.shields.io/github/release/nxrighthere/Unigine-C.svg?style=flat-square)](https://github.com/nxrighthere/Unigine-C/releases) [![PayPal](https://github.com/Rageware/Shields/blob/master/paypal.svg)](https://www.paypal.me/nxrighthere) [![Bountysource](https://github.com/Rageware/Shields/blob/master/bountysource.svg)](https://salt.bountysource.com/checkout/amount?team=nxrighthere) [![Coinbase](https://github.com/Rageware/Shields/blob/master/coinbase.svg)](https://commerce.coinbase.com/checkout/03e11816-b6fc-4e14-b974-29a1d0886697)
+[![GitHub release](https://img.shields.io/github/release/nxrighthere/Unigine-C.svg?style=flat-square)](https://github.com/nxrighthere/Unigine-C/releases) [![PayPal](https://github.com/Rageware/Shields/blob/master/paypal.svg)](https://www.paypal.me/nxrighthere) [![Coinbase](https://github.com/Rageware/Shields/blob/master/coinbase.svg)](https://commerce.coinbase.com/checkout/03e11816-b6fc-4e14-b974-29a1d0886697)
 
 This repository provides a single-header, native C API of the [Unigine](https://unigine.com) engine transpiled from managed code for bindings in programming languages such as Rust, Zig, Nim, and many others. It can be used with any C-compatible compiler such as GCC, Clang, or MSVC. The header doesn't provide any high-level abstractions of the API and lacks opaque pointers for type-safety. Out of the box, Unigine supports C++ and C# languages, consider learning API from there.
 
