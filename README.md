@@ -12,7 +12,7 @@ Create a new or use an existing Unigine C++ project, recreate `source` folder wi
 
 The engine API can be used in two ways: by using unformatted imported functions directly, or by using macro aliases that follow C naming conventions.
 
-##### Minimal executable:
+##### Minimal executable
 ```c
 #include "unigine.h"
 
@@ -24,7 +24,7 @@ int main(int argumentsCount, char** arguments) {
 }
 ```
 
-##### Basic systems:
+##### Basic systems
 ```c
 #include "unigine.h"
 
